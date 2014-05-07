@@ -73,11 +73,17 @@ class Overview:
         try:
 
             page     = html.fromstring( html_content )
-            champion = page.xpath('//body//div[@class="todo"]//div[@class="contenido"]//article//div[@class="col_central"]//table[@cellspacing="0"]//tbody//tr[@align="center"]//td[@width="33%"]//table[@cellspacing="0"]//tbody//td[@align="center"]//h3')
+#            champion = page.xpath('//body//div[@class="todo"]//div[@class="contenido"]//article//div[@class="col_central"]//table[@cellspacing="0"]//tbody//tr[@align="center"]//td[@width="33%"]//table[@cellspacing="0"]//tbody//td[@align="center"]//h3')
 
-            print champion
+            rows = page.xpath('//body//div[@class="todo"]//div[@class="contenido"]//article//div[@class="col_central"]//table[@cellspacing="0"]')[0].findall( 'tr' )
 
-        except:
+            for row in rows:
+                for child in row.getchildren():
+                    print child
+                    #for rowchild in child.getchildren():
+                        #print rowchild
+
+        except IOError:
             print "Something went bonkers!!!"
 
         
