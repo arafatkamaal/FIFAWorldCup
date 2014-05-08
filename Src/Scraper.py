@@ -73,13 +73,68 @@ class ResultsAndGroupData:
 
     def get_group_results( self ):
 
-        print self.group_summary_urls
-
         for group_summary_url in self.group_summary_urls:
-            url = self.url_prefix + group_summary_url
+            url  = self.url_prefix + group_summary_url
+            page = get_page( url )
+            self.group_results( page , url )
+            exit() 
 
-            print url
-        
+    def group_results( self , html_content , url ):
+
+        page  = html.fromstring( html_content )
+        table = page.xpath('//html//body//div//div[2]//article//div//table[2]//tr[@align="right"]')
+
+        serial_number = ''
+        qualification = ''
+        team          = ''
+        pts           = '' 
+        gp            = '' 
+        w             = '' 
+        d             = '' 
+        l             = '' 
+        gs            = ''
+        ga            = ''
+        gd            = ''
+
+
+        for table_row in table:
+            row_number = 0
+            for table_data in table_row.findall( 'td' ):
+
+                row_number = row_number + 1
+
+                if ( ( 'height' in table_data.attrib ) and ( 'class' in table_data.attrib ) and ( 'align' in table_data.attrib ) ):
+                    serial_number = table_data.text.strip()
+
+                if ( ( 'class' in table_data.attrib ) and ( 'align' in table_data.attrib ) and ( 'height' not in table_data.attrib ) ):
+                    if table_data.attrib['align'] == 'center':
+                        qualification = table_data.text 
+
+                    if table_data.attrib['align'] == 'left':
+                        for img in table_data.findall( 'img' ):
+                            team = img.attrib['alt']
+
+                if row_number == 3:
+                    pts = table_data.text
+                elif row_number == 4:
+                    gp  = table_data.text
+                elif row_number == 5:
+                    w   = table_data.text
+                elif row_number == 6:
+                    d   = table_data.text
+                elif row_number == 7:
+                    l   = table_data.text
+                elif row_number == 8:
+                    gs  = table_data.text
+                elif row_number == 9:
+                    ga  = table_data.text
+                elif row_number == 10:
+                    gd  = table_data.text
+
+            print serial_number + "|" + team + "|" + pts + "|" + gp + "|" + w + "|" + d + "|" + l + "|" + gs + "|" + ga + "|" + gd + "|" + qualification + "|" + url 
+
+                 
+
 
     def brief_results( self , html_content ):
 
