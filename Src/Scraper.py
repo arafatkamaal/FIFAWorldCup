@@ -54,6 +54,36 @@ sections = {
 
 class Overview:
 
+    def get_results_overview( self , html_content ):
+
+        try:
+
+            page = html.fromstring( html_content )
+            rows = page.xpath('//html/body//div//div[2]//article//div/table//tr//td[3]//p/text()')
+            data = []
+            for row in rows:
+                data.append( row.replace( "-" , "" ).strip() )
+ 
+            overview =  "|".join( data )
+            return overview
+
+        except IOError:
+            print "Something went bonkers!!!"
+
+    def get_champion( self , html_content ):
+
+        try:
+
+            page         = html.fromstring( html_content )
+#            champion = page.xpath('//body//div[@class="todo"]//div[@class="contenido"]//article//div[@class="col_central"]//table[@cellspacing="0"]//tbody//tr[@align="center"]//td[@width="33%"]//table[@cellspacing="0"]//tbody//td[@align="center"]//h3')
+
+            row          = page.xpath('//html//body//div//div[2]//article//div//table//tr//td[2]//table//tr//td[2]//h3')[0]
+            raw_champion = row.text_content().split( )
+
+            return raw_champion[1]
+        except IOError:
+            print "Something went bonkers!!!"
+
     def get_overall_winner_stats( self ):
 
         section = sections['overview']
@@ -65,29 +95,9 @@ class Overview:
                 print 'Unable to process to overwall winner stats for url ' + url
                 exit()
 
-            champion = self.get_champion( page )
-
-
-    def get_champion( self , html_content ):
-
-        try:
-
-            page     = html.fromstring( html_content )
-#            champion = page.xpath('//body//div[@class="todo"]//div[@class="contenido"]//article//div[@class="col_central"]//table[@cellspacing="0"]//tbody//tr[@align="center"]//td[@width="33%"]//table[@cellspacing="0"]//tbody//td[@align="center"]//h3')
-
-            rows = page.xpath('//body//div[@class="todo"]//div[@class="contenido"]//article//div[@class="col_central"]//table[@cellspacing="0"]')[0].findall( 'tr' )
-
-            for row in rows:
-                for child in row.getchildren():
-                    print child
-                    #for rowchild in child.getchildren():
-                        #print rowchild
-
-        except IOError:
-            print "Something went bonkers!!!"
-
-        
-
+            #champion = self.get_champion( page )
+            overview  = self.get_results_overview( page )
+            print overview
 
 
 
