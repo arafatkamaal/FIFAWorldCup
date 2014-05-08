@@ -9,6 +9,7 @@ from lxml import html
 from io import BytesIO
 import urllib2
 import os
+import re
 
 #####################################################################
 # Global variables and constants                                    #
@@ -52,6 +53,73 @@ sections = {
 # Implementation of classes starts here                             #
 #####################################################################
 
+class ResultsAndGroupData:
+
+    def get_results( self ):
+
+        section = sections['results']
+   
+        for year_wise_url in year_wise_urls.keys():
+            url  = year_wise_urls[year_wise_url] + section
+            page = get_page( url )
+
+            self.brief_results( page )
+
+    def brief_results( self , html_content ):
+
+        serial_number = ''
+        date          = ''
+        first_team    = ''
+        second_team   = ''
+        result        = ''
+        match_summary = ''
+        group         = ''
+        group_summary = ''
+
+        overview_file = open( 'data/results.csv' , 'ab' )
+
+        page  = html.fromstring( html_content )
+        table = page.xpath('//html//body//div//div[2]//article//div//table//tr[@align="center"]')
+        for table_row in table:
+            for table_data in table_row.findall( 'td' ):
+
+                #get the serial number
+                if 'height' in table_data.attrib:
+                    serial_number = table_data.text
+
+                value = ''
+                value = table_data.text
+                if ( ( value != None ) and ( re.search( "[0-9]+$" , value ) ) ):
+                    date = value          
+
+                if ( ( 'class' in table_data.attrib ) and ( 'align' in table_data.attrib ) ):
+
+                    if table_data.attrib['align'] == 'right':
+                        first_team = table_data.text
+
+                    if table_data.attrib['align'] == 'left':
+                        second_team = table_data.text
+
+                if 'class' in table_data.attrib:
+                    score = table_data.findall( 'a' )
+                    if table_data.attrib['class'] == 'scf12t':
+                        for a in score:
+                            result        = a.text
+                            match_summary = a.attrib['href']
+                else:
+                    groups = table_data.findall( 'a' )
+                    for a in groups:
+                        if re.search ( 'Group' , a.text ):
+                            group         = a.text.strip()
+                        if re.search ( 'group' , a.attrib['href'] ):
+                            group_summary = a.attrib['href'].strip()
+
+            overview_file.write( serial_number + "|" + first_team + "|" + second_team + "|" + result + "|" + match_summary + "|" + group + "|" + group_summary + "\n" )
+
+        overview_file.close()
+                
+
+
 class Overview:
 
     def get_results_overview( self , html_content ):
@@ -88,7 +156,7 @@ class Overview:
 
         section = sections['overview']
 
-        overview_file = open( 'data/overview.csv' , 'wb' )
+        overview_file = open( 'data/overview.csv' , 'ab' )
 
         for year_wise_url in year_wise_urls.keys():
             url  = year_wise_urls[year_wise_url] + section
@@ -171,3 +239,6 @@ create_directory( 'data' )
 
 overall_stats = Overview();
 overall_stats.get_overall_winner_stats()
+
+result_stats = ResultsAndGroupData()
+result_stats.get_results()

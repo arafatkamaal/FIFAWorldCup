@@ -1,0 +1,785 @@
+Game||||||
+1.|Bulgaria|Italy|1 - 1|../games/1986_bulgaria_italy.php|1st Round, Group A|1986_group_a.php
+2.|Canada|France|0 - 1|../games/1986_canada_france.php|1st Round, Group C|1986_group_c.php
+3.|Spain|Brazil|0 - 1|../games/1986_spain_brazil.php|1st Round, Group D|1986_group_d.php
+4.|Argentina|South Korea|3 - 1|../games/1986_argentina_south_korea.php|1st Round, Group A|1986_group_a.php
+5.|Morocco|Poland|0 - 0|../games/1986_morocco_poland.php|1st Round, Group F|1986_group_f.php
+6.|Soviet Union|Hungary|6 - 0|../games/1986_soviet_union_hungary.php|1st Round, Group C|1986_group_c.php
+7.|Algeria|Northern Ireland|1 - 1|../games/1986_algeria_northern_ireland.php|1st Round, Group D|1986_group_d.php
+8.|Belgium|Mexico|1 - 2|../games/1986_belgium_mexico.php|1st Round, Group B|1986_group_b.php
+9.|Portugal|England|1 - 0|../games/1986_portugal_england.php|1st Round, Group F|1986_group_f.php
+10.|Scotland|Denmark|0 - 1|../games/1986_scotland_denmark.php|1st Round, Group E|1986_group_e.php
+11.|Paraguay|Iraq|1 - 0|../games/1986_paraguay_iraq.php|1st Round, Group B|1986_group_b.php
+12.|Uruguay|West Germany|1 - 1|../games/1986_uruguay_west_germany.php|1st Round, Group E|1986_group_e.php
+13.|South Korea|Bulgaria|1 - 1|../games/1986_south_korea_bulgaria.php|1st Round, Group A|1986_group_a.php
+14.|France|Soviet Union|1 - 1|../games/1986_france_soviet_union.php|1st Round, Group C|1986_group_c.php
+15.|Italy|Argentina|1 - 1|../games/1986_italy_argentina.php|1st Round, Group A|1986_group_a.php
+16.|Brazil|Algeria|1 - 0|../games/1986_brazil_algeria.php|1st Round, Group D|1986_group_d.php
+17.|Hungary|Canada|2 - 0|../games/1986_hungary_canada.php|1st Round, Group C|1986_group_c.php
+18.|England|Morocco|0 - 0|../games/1986_england_morocco.php|1st Round, Group F|1986_group_f.php
+19.|Northern Ireland|Spain|1 - 2|../games/1986_northern_ireland_spain.php|1st Round, Group D|1986_group_d.php
+20.|Mexico|Paraguay|1 - 1|../games/1986_mexico_paraguay.php|1st Round, Group B|1986_group_b.php
+21.|Poland|Portugal|1 - 0|../games/1986_poland_portugal.php|1st Round, Group F|1986_group_f.php
+22.|West Germany|Scotland|2 - 1|../games/1986_west_germany_scotland.php|1st Round, Group E|1986_group_e.php
+23.|Denmark|Uruguay|6 - 1|../games/1986_denmark_uruguay.php|1st Round, Group E|1986_group_e.php
+24.|Iraq|Belgium|1 - 2|../games/1986_iraq_belgium.php|1st Round, Group B|1986_group_b.php
+25.|Hungary|France|0 - 3|../games/1986_hungary_france.php|1st Round, Group C|1986_group_c.php
+26.|Soviet Union|Canada|2 - 0|../games/1986_soviet_union_canada.php|1st Round, Group C|1986_group_c.php
+27.|Argentina|Bulgaria|2 - 0|../games/1986_argentina_bulgaria.php|1st Round, Group A|1986_group_a.php
+28.|South Korea|Italy|2 - 3|../games/1986_south_korea_italy.php|1st Round, Group A|1986_group_a.php
+29.|Iraq|Mexico|0 - 1|../games/1986_iraq_mexico.php|1st Round, Group B|1986_group_b.php
+30.|England|Poland|3 - 0|../games/1986_england_poland.php|1st Round, Group F|1986_group_f.php
+31.|Paraguay|Belgium|2 - 2|../games/1986_paraguay_belgium.php|1st Round, Group B|1986_group_b.php
+32.|Portugal|Morocco|1 - 3|../games/1986_portugal_morocco.php|1st Round, Group F|1986_group_f.php
+33.|Algeria|Spain|0 - 3|../games/1986_algeria_spain.php|1st Round, Group D|1986_group_d.php
+34.|Northern Ireland|Brazil|0 - 3|../games/1986_northern_ireland_brazil.php|1st Round, Group D|1986_group_d.php
+35.|Denmark|West Germany|2 - 0|../games/1986_denmark_west_germany.php|1st Round, Group E|1986_group_e.php
+36.|Scotland|Uruguay|0 - 0|../games/1986_scotland_uruguay.php|1st Round, Group E|1986_group_e.php
+37.|Mexico|Bulgaria|2 - 0|../games/1986_mexico_bulgaria.php|1st Round, Group E|1986_group_e.php
+38.|Soviet Union|Belgium|3 - 4|../games/1986_soviet_union_belgium.php|1st Round, Group E|1986_group_e.php
+39.|Argentina|Uruguay|1 - 0|../games/1986_argentina_uruguay.php|1st Round, Group E|1986_group_e.php
+40.|Brazil|Poland|4 - 0|../games/1986_brazil_poland.php|1st Round, Group E|1986_group_e.php
+41.|Italy|France|0 - 2|../games/1986_italy_france.php|1st Round, Group E|1986_group_e.php
+42.|Morocco|West Germany|0 - 1|../games/1986_morocco_west_germany.php|1st Round, Group E|1986_group_e.php
+43.|Denmark|Spain|1 - 5|../games/1986_denmark_spain.php|1st Round, Group E|1986_group_e.php
+44.|England|Paraguay|3 - 0|../games/1986_england_paraguay.php|1st Round, Group E|1986_group_e.php
+45.|Brazil|France|1 - 1|../games/1986_brazil_france.php|1st Round, Group E|1986_group_e.php
+46.|Mexico|West Germany|0 - 0|../games/1986_mexico_west_germany.php|1st Round, Group E|1986_group_e.php
+47.|Argentina|England|2 - 1|../games/1986_argentina_england.php|1st Round, Group E|1986_group_e.php
+48.|Belgium|Spain|1 - 1|../games/1986_belgium_spain.php|1st Round, Group E|1986_group_e.php
+49.|West Germany|France|2 - 0|../games/1986_west_germany_france.php|1st Round, Group E|1986_group_e.php
+50.|Argentina|Belgium|2 - 0|../games/1986_argentina_belgium.php|1st Round, Group E|1986_group_e.php
+51.|Belgium|France|2 - 4|../games/1986_belgium_france.php|1st Round, Group E|1986_group_e.php
+52.|Argentina|West Germany|3 - 2|../games/1986_argentina_west_germany.php|1st Round, Group E|1986_group_e.php
+Game||||||
+1.|Argentina|Cameroon|0 - 1|../games/1990_argentina_cameroon.php|1st Round, Group B|1990_group_b.php
+2.|Soviet Union|Romania|0 - 2|../games/1990_soviet_union_romania.php|1st Round, Group B|1990_group_b.php
+3.|Italy|Austria|1 - 0|../games/1990_italy_austria.php|1st Round, Group A|1990_group_a.php
+4.|United Arab Emirates|Colombia|0 - 2|../games/1990_united_arab_emirates_colombia.php|1st Round, Group D|1990_group_d.php
+5.|USA|Czechoslovakia|1 - 5|../games/1990_usa_czechoslovakia.php|1st Round, Group A|1990_group_a.php
+6.|Brazil|Sweden|2 - 1|../games/1990_brazil_sweden.php|1st Round, Group C|1990_group_c.php
+7.|West Germany|Yugoslavia|4 - 1|../games/1990_west_germany_yugoslavia.php|1st Round, Group D|1990_group_d.php
+8.|Costa Rica|Scotland|1 - 0|../games/1990_costa_rica_scotland.php|1st Round, Group C|1990_group_c.php
+9.|England|Ireland|1 - 1|../games/1990_england_ireland.php|1st Round, Group F|1990_group_f.php
+10.|Belgium|South Korea|2 - 0|../games/1990_belgium_south_korea.php|1st Round, Group E|1990_group_e.php
+11.|Holland|Egypt|1 - 1|../games/1990_holland_egypt.php|1st Round, Group F|1990_group_f.php
+12.|Uruguay|Spain|0 - 0|../games/1990_uruguay_spain.php|1st Round, Group E|1990_group_e.php
+13.|Argentina|Soviet Union|2 - 0|../games/1990_argentina_soviet_union.php|1st Round, Group B|1990_group_b.php
+14.|Yugoslavia|Colombia|1 - 0|../games/1990_yugoslavia_colombia.php|1st Round, Group D|1990_group_d.php
+15.|Italy|USA|1 - 0|../games/1990_italy_usa.php|1st Round, Group A|1990_group_a.php
+16.|Cameroon|Romania|2 - 1|../games/1990_cameroon_romania.php|1st Round, Group B|1990_group_b.php
+17.|Austria|Czechoslovakia|0 - 1|../games/1990_austria_czechoslovakia.php|1st Round, Group A|1990_group_a.php
+18.|West Germany|United Arab Emirates|5 - 1|../games/1990_west_germany_united_arab_emirates.php|1st Round, Group D|1990_group_d.php
+19.|Brazil|Costa Rica|1 - 0|../games/1990_brazil_costa_rica.php|1st Round, Group C|1990_group_c.php
+20.|Sweden|Scotland|1 - 2|../games/1990_sweden_scotland.php|1st Round, Group C|1990_group_c.php
+21.|England|Holland|0 - 0|../games/1990_england_holland.php|1st Round, Group F|1990_group_f.php
+22.|Ireland|Egypt|0 - 0|../games/1990_ireland_egypt.php|1st Round, Group F|1990_group_f.php
+23.|Belgium|Uruguay|3 - 1|../games/1990_belgium_uruguay.php|1st Round, Group E|1990_group_e.php
+24.|South Korea|Spain|1 - 3|../games/1990_south_korea_spain.php|1st Round, Group E|1990_group_e.php
+25.|Argentina|Romania|1 - 1|../games/1990_argentina_romania.php|1st Round, Group B|1990_group_b.php
+26.|Cameroon|Soviet Union|0 - 4|../games/1990_cameroon_soviet_union.php|1st Round, Group B|1990_group_b.php
+27.|West Germany|Colombia|1 - 1|../games/1990_west_germany_colombia.php|1st Round, Group D|1990_group_d.php
+28.|Yugoslavia|United Arab Emirates|4 - 1|../games/1990_yugoslavia_united_arab_emirates.php|1st Round, Group D|1990_group_d.php
+29.|Italy|Czechoslovakia|2 - 0|../games/1990_italy_czechoslovakia.php|1st Round, Group A|1990_group_a.php
+30.|Austria|USA|2 - 1|../games/1990_austria_usa.php|1st Round, Group A|1990_group_a.php
+31.|Brazil|Scotland|1 - 0|../games/1990_brazil_scotland.php|1st Round, Group C|1990_group_c.php
+32.|Sweden|Costa Rica|1 - 2|../games/1990_sweden_costa_rica.php|1st Round, Group C|1990_group_c.php
+33.|Belgium|Spain|1 - 2|../games/1990_belgium_spain.php|1st Round, Group E|1990_group_e.php
+34.|South Korea|Uruguay|0 - 1|../games/1990_south_korea_uruguay.php|1st Round, Group E|1990_group_e.php
+35.|England|Egypt|1 - 0|../games/1990_england_egypt.php|1st Round, Group F|1990_group_f.php
+36.|Ireland|Holland|1 - 1|../games/1990_ireland_holland.php|1st Round, Group F|1990_group_f.php
+37.|Cameroon|Colombia|2 - 1|../games/1990_cameroon_colombia.php|1st Round, Group F|1990_group_f.php
+38.|Czechoslovakia|Costa Rica|4 - 1|../games/1990_czechoslovakia_costa_rica.php|1st Round, Group F|1990_group_f.php
+39.|Brazil|Argentina|0 - 1|../games/1990_brazil_argentina.php|1st Round, Group F|1990_group_f.php
+40.|West Germany|Holland|2 - 1|../games/1990_west_germany_holland.php|1st Round, Group F|1990_group_f.php
+41.|Ireland|Romania|0 - 0|../games/1990_ireland_romania.php|1st Round, Group F|1990_group_f.php
+42.|Italy|Uruguay|2 - 0|../games/1990_italy_uruguay.php|1st Round, Group F|1990_group_f.php
+43.|Spain|Yugoslavia|1 - 2|../games/1990_spain_yugoslavia.php|1st Round, Group F|1990_group_f.php
+44.|England|Belgium|1 - 0|../games/1990_england_belgium.php|1st Round, Group F|1990_group_f.php
+45.|Argentina|Yugoslavia|0 - 0|../games/1990_argentina_yugoslavia.php|1st Round, Group F|1990_group_f.php
+46.|Italy|Ireland|1 - 0|../games/1990_italy_ireland.php|1st Round, Group F|1990_group_f.php
+47.|West Germany|Czechoslovakia|1 - 0|../games/1990_west_germany_czechoslovakia.php|1st Round, Group F|1990_group_f.php
+48.|Cameroon|England|2 - 3|../games/1990_cameroon_england.php|1st Round, Group F|1990_group_f.php
+49.|Italy|Argentina|1 - 1|../games/1990_italy_argentina.php|1st Round, Group F|1990_group_f.php
+50.|England|West Germany|1 - 1|../games/1990_england_west_germany.php|1st Round, Group F|1990_group_f.php
+51.|Italy|England|2 - 1|../games/1990_italy_england.php|1st Round, Group F|1990_group_f.php
+52.|Argentina|West Germany|0 - 1|../games/1990_argentina_west_germany.php|1st Round, Group F|1990_group_f.php
+Game||||||
+1.|Argentina|Belgium|0 - 1|../games/1982_argentina_belgium.php|1st Round, Group C|1982_group_c.php
+2.|Brazil|Soviet Union|0 - 1|../games/1982_argentina_belgium.php|1st Round, Group F|1982_group_f.php
+3.|Italy|Poland|0 - 0|../games/1982_italy_poland.php|1st Round, Group A|1982_group_a.php
+4.|Scotland|New Zealand|0 - 0|../games/1982_italy_poland.php|1st Round, Group F|1982_group_f.php
+5.|Hungary|El Salvador|0 - 0|../games/1982_italy_poland.php|1st Round, Group C|1982_group_c.php
+6.|Peru|Cameroon|0 - 0|../games/1982_italy_poland.php|1st Round, Group A|1982_group_a.php
+7.|West Germany|Algeria|0 - 0|../games/1982_italy_poland.php|1st Round, Group B|1982_group_b.php
+8.|Spain|Honduras|0 - 0|../games/1982_italy_poland.php|1st Round, Group E|1982_group_e.php
+9.|England|France|0 - 0|../games/1982_italy_poland.php|1st Round, Group D|1982_group_d.php
+10.|Czechoslovakia|Kuwait|0 - 0|../games/1982_italy_poland.php|1st Round, Group D|1982_group_d.php
+11.|Chile|Austria|0 - 0|../games/1982_italy_poland.php|1st Round, Group B|1982_group_b.php
+12.|Yugoslavia|Northern Ireland|0 - 0|../games/1982_italy_poland.php|1st Round, Group E|1982_group_e.php
+13.|Argentina|Hungary|4 - 1|../games/1982_argentina_hungary.php|1st Round, Group C|1982_group_c.php
+14.|Brazil|Scotland|4 - 1|../games/1982_argentina_hungary.php|1st Round, Group F|1982_group_f.php
+15.|Italy|Peru|1 - 1|../games/1982_italy_peru.php|1st Round, Group A|1982_group_a.php
+16.|Belgium|El Salvador|1 - 1|../games/1982_italy_peru.php|1st Round, Group C|1982_group_c.php
+17.|Poland|Cameroon|1 - 1|../games/1982_italy_peru.php|1st Round, Group A|1982_group_a.php
+18.|Soviet Union|New Zealand|1 - 1|../games/1982_italy_peru.php|1st Round, Group F|1982_group_f.php
+19.|West Germany|Chile|1 - 1|../games/1982_italy_peru.php|1st Round, Group B|1982_group_b.php
+20.|Spain|Yugoslavia|1 - 1|../games/1982_italy_peru.php|1st Round, Group E|1982_group_e.php
+21.|England|Czechoslovakia|1 - 1|../games/1982_italy_peru.php|1st Round, Group D|1982_group_d.php
+22.|Algeria|Austria|1 - 1|../games/1982_italy_peru.php|1st Round, Group B|1982_group_b.php
+23.|France|Kuwait|1 - 1|../games/1982_italy_peru.php|1st Round, Group D|1982_group_d.php
+24.|Honduras|Northern Ireland|1 - 1|../games/1982_italy_peru.php|1st Round, Group E|1982_group_e.php
+25.|Belgium|Hungary|1 - 1|../games/1982_italy_peru.php|1st Round, Group C|1982_group_c.php
+26.|Poland|Peru|1 - 1|../games/1982_italy_peru.php|1st Round, Group A|1982_group_a.php
+27.|Soviet Union|Scotland|1 - 1|../games/1982_italy_peru.php|1st Round, Group F|1982_group_f.php
+28.|Argentina|El Salvador|2 - 0|../games/1982_argentina_el_salvador.php|1st Round, Group C|1982_group_c.php
+29.|Brazil|New Zealand|2 - 0|../games/1982_argentina_el_salvador.php|1st Round, Group F|1982_group_f.php
+30.|Italy|Cameroon|1 - 1|../games/1982_italy_cameroon.php|1st Round, Group A|1982_group_a.php
+31.|Algeria|Chile|1 - 1|../games/1982_italy_cameroon.php|1st Round, Group B|1982_group_b.php
+32.|France|Czechoslovakia|1 - 1|../games/1982_italy_cameroon.php|1st Round, Group D|1982_group_d.php
+33.|Honduras|Yugoslavia|1 - 1|../games/1982_italy_cameroon.php|1st Round, Group E|1982_group_e.php
+34.|West Germany|Austria|1 - 1|../games/1982_italy_cameroon.php|1st Round, Group B|1982_group_b.php
+35.|England|Kuwait|1 - 1|../games/1982_italy_cameroon.php|1st Round, Group D|1982_group_d.php
+36.|Northern Ireland|Spain|1 - 1|../games/1982_italy_cameroon.php|1st Round, Group E|1982_group_e.php
+37.|Austria|France|1 - 1|../games/1982_italy_cameroon.php|2nd Round, Group 4|1982_group_4.php
+38.|Poland|Belgium|1 - 1|../games/1982_italy_cameroon.php|2nd Round, Group 1|1982_group_1.php
+39.|West Germany|England|1 - 1|../games/1982_italy_cameroon.php|2nd Round, Group 2|1982_group_2.php
+40.|Italy|Argentina|2 - 1|../games/1982_italy_argentina.php|2nd Round, Group 3|1982_group_3.php
+41.|Austria|Northern Ireland|2 - 1|../games/1982_italy_argentina.php|2nd Round, Group 4|1982_group_4.php
+42.|Belgium|Soviet Union|2 - 1|../games/1982_italy_argentina.php|2nd Round, Group 1|1982_group_1.php
+43.|West Germany|Spain|2 - 1|../games/1982_italy_argentina.php|2nd Round, Group 2|1982_group_2.php
+44.|Argentina|Brazil|1 - 3|../games/1982_argentina_brazil.php|2nd Round, Group 3|1982_group_3.php
+45.|France|Northern Ireland|1 - 3|../games/1982_argentina_brazil.php|2nd Round, Group 4|1982_group_4.php
+46.|Poland|Soviet Union|1 - 3|../games/1982_argentina_brazil.php|2nd Round, Group 1|1982_group_1.php
+47.|Spain|England|1 - 3|../games/1982_argentina_brazil.php|2nd Round, Group 2|1982_group_2.php
+48.|Italy|Brazil|3 - 2|../games/1982_italy_brazil.php|2nd Round, Group 3|1982_group_3.php
+49.|West Germany|France|3 - 3|../games/1982_west_germany_france.php|2nd Round, Group 3|1982_group_3.php
+50.|Poland|Italy|0 - 2|../games/1982_poland_italy.php|2nd Round, Group 3|1982_group_3.php
+51.|Poland|France|3 - 2|../games/1982_poland_france.php|2nd Round, Group 3|1982_group_3.php
+52.|Italy|West Germany|3 - 1|../games/1982_italy_west_germany.php|2nd Round, Group 3|1982_group_3.php
+Game||||||
+1.|Germany|Bolivia|||1st Round, Group C|1994_group_c.php
+2.|Spain|South Korea|||1st Round, Group C|1994_group_c.php
+3.|USA|Switzerland|||1st Round, Group A|1994_group_a.php
+4.|Italy|Ireland|||1st Round, Group E|1994_group_e.php
+5.|Colombia|Romania|||1st Round, Group A|1994_group_a.php
+6.|Belgium|Morocco|||1st Round, Group F|1994_group_f.php
+7.|Norway|Mexico|||1st Round, Group E|1994_group_e.php
+8.|Cameroon|Sweden|||1st Round, Group B|1994_group_b.php
+9.|Brazil|Russia|||1st Round, Group B|1994_group_b.php
+10.|Holland|Saudi Arabia|||1st Round, Group F|1994_group_f.php
+11.|Argentina|Greece|4 - 0|../games/1994_argentina_greece.php|1st Round, Group D|1994_group_d.php
+12.|Germany|Spain|4 - 0|../games/1994_argentina_greece.php|1st Round, Group C|1994_group_c.php
+13.|Nigeria|Bulgaria|4 - 0|../games/1994_argentina_greece.php|1st Round, Group D|1994_group_d.php
+14.|Romania|Switzerland|4 - 0|../games/1994_argentina_greece.php|1st Round, Group A|1994_group_a.php
+15.|USA|Colombia|4 - 0|../games/1994_argentina_greece.php|1st Round, Group A|1994_group_a.php
+16.|Italy|Norway|4 - 0|../games/1994_argentina_greece.php|1st Round, Group E|1994_group_e.php
+17.|South Korea|Bolivia|4 - 0|../games/1994_argentina_greece.php|1st Round, Group C|1994_group_c.php
+18.|Mexico|Ireland|4 - 0|../games/1994_argentina_greece.php|1st Round, Group E|1994_group_e.php
+19.|Brazil|Cameroon|4 - 0|../games/1994_argentina_greece.php|1st Round, Group B|1994_group_b.php
+20.|Sweden|Russia|4 - 0|../games/1994_argentina_greece.php|1st Round, Group B|1994_group_b.php
+21.|Belgium|Holland|4 - 0|../games/1994_argentina_greece.php|1st Round, Group F|1994_group_f.php
+22.|Saudi Arabia|Morocco|4 - 0|../games/1994_argentina_greece.php|1st Round, Group F|1994_group_f.php
+23.|Argentina|Nigeria|2 - 1|../games/1994_argentina_nigeria.php|1st Round, Group D|1994_group_d.php
+24.|Bulgaria|Greece|2 - 1|../games/1994_argentina_nigeria.php|1st Round, Group D|1994_group_d.php
+25.|USA|Romania|2 - 1|../games/1994_argentina_nigeria.php|1st Round, Group A|1994_group_a.php
+26.|Switzerland|Colombia|2 - 1|../games/1994_argentina_nigeria.php|1st Round, Group A|1994_group_a.php
+27.|Bolivia|Spain|2 - 1|../games/1994_argentina_nigeria.php|1st Round, Group C|1994_group_c.php
+28.|Germany|South Korea|2 - 1|../games/1994_argentina_nigeria.php|1st Round, Group C|1994_group_c.php
+29.|Ireland|Norway|2 - 1|../games/1994_argentina_nigeria.php|1st Round, Group E|1994_group_e.php
+30.|Italy|Mexico|2 - 1|../games/1994_argentina_nigeria.php|1st Round, Group E|1994_group_e.php
+31.|Russia|Cameroon|2 - 1|../games/1994_argentina_nigeria.php|1st Round, Group B|1994_group_b.php
+32.|Brazil|Sweden|1 - 1|../games/1994_brazil_sweden.php|1st Round, Group B|1994_group_b.php
+33.|Morocco|Holland|1 - 1|../games/1994_brazil_sweden.php|1st Round, Group F|1994_group_f.php
+34.|Belgium|Saudi Arabia|1 - 1|../games/1994_brazil_sweden.php|1st Round, Group F|1994_group_f.php
+35.|Greece|Nigeria|1 - 1|../games/1994_brazil_sweden.php|1st Round, Group D|1994_group_d.php
+36.|Argentina|Bulgaria|0 - 2|../games/1994_argentina_bulgaria.php|1st Round, Group D|1994_group_d.php
+37.|Germany|Belgium|3 - 2|../games/1994_germany_belgium.php|1st Round, Group D|1994_group_d.php
+38.|Spain|Switzerland|3 - 0|../games/1994_spain_switzerland.php|1st Round, Group D|1994_group_d.php
+39.|Saudi Arabia|Sweden|1 - 3|../games/1994_saudi_arabia_sweden.php|1st Round, Group D|1994_group_d.php
+40.|Romania|Argentina|3 - 2|../games/1994_romania_argentina.php|1st Round, Group D|1994_group_d.php
+41.|Holland|Ireland|2 - 0|../games/1994_holland_ireland.php|1st Round, Group D|1994_group_d.php
+42.|Brazil|USA|1 - 0|../games/1994_brazil_usa.php|1st Round, Group D|1994_group_d.php
+43.|Nigeria|Italy|1 - 2|../games/1994_nigeria_italy.php|1st Round, Group D|1994_group_d.php
+44.|Mexico|Bulgaria|1 - 1|../games/1994_mexico_bulgaria.php|1st Round, Group D|1994_group_d.php
+45.|Italy|Spain|2 - 1|../games/1994_italy_spain.php|1st Round, Group D|1994_group_d.php
+46.|Holland|Brazil|2 - 3|../games/1994_holland_brazil.php|1st Round, Group D|1994_group_d.php
+47.|Bulgaria|Germany|2 - 1|../games/1994_bulgaria_germany.php|1st Round, Group D|1994_group_d.php
+48.|Romania|Sweden|2 - 2|../games/1994_romania_sweden.php|1st Round, Group D|1994_group_d.php
+49.|Bulgaria|Italy|1 - 2|../games/1994_bulgaria_italy.php|1st Round, Group D|1994_group_d.php
+50.|Sweden|Brazil|0 - 1|../games/1994_sweden_brazil.php|1st Round, Group D|1994_group_d.php
+51.|Sweden|Bulgaria|4 - 0|../games/1994_sweden_bulgaria.php|1st Round, Group D|1994_group_d.php
+52.|Brazil|Italy|0 - 0|../games/1994_brazil_italy.php|1st Round, Group D|1994_group_d.php
+Game||||||
+1.|West Germany|Poland|||1st Round, Group 2|1978_group_2.php
+2.|Argentina|Hungary|2 - 1|../games/1978_argentina_hungary.php|1st Round, Group 1|1978_group_1.php
+3.|Italy|France|2 - 1|../games/1978_argentina_hungary.php|1st Round, Group 1|1978_group_1.php
+4.|Tunisia|Mexico|2 - 1|../games/1978_argentina_hungary.php|1st Round, Group 2|1978_group_2.php
+5.|Austria|Spain|2 - 1|../games/1978_argentina_hungary.php|1st Round, Group 3|1978_group_3.php
+6.|Holland|Iran|2 - 1|../games/1978_argentina_hungary.php|1st Round, Group 4|1978_group_4.php
+7.|Peru|Scotland|2 - 1|../games/1978_argentina_hungary.php|1st Round, Group 4|1978_group_4.php
+8.|Sweden|Brazil|2 - 1|../games/1978_argentina_hungary.php|1st Round, Group 3|1978_group_3.php
+9.|West Germany|Mexico|2 - 1|../games/1978_argentina_hungary.php|1st Round, Group 2|1978_group_2.php
+10.|Argentina|France|2 - 1|../games/1978_argentina_france.php|1st Round, Group 1|1978_group_1.php
+11.|Italy|Hungary|2 - 1|../games/1978_argentina_france.php|1st Round, Group 1|1978_group_1.php
+12.|Poland|Tunisia|2 - 1|../games/1978_argentina_france.php|1st Round, Group 2|1978_group_2.php
+13.|Austria|Sweden|2 - 1|../games/1978_argentina_france.php|1st Round, Group 3|1978_group_3.php
+14.|Brazil|Spain|2 - 1|../games/1978_argentina_france.php|1st Round, Group 3|1978_group_3.php
+15.|Scotland|Iran|2 - 1|../games/1978_argentina_france.php|1st Round, Group 4|1978_group_4.php
+16.|Holland|Peru|2 - 1|../games/1978_argentina_france.php|1st Round, Group 4|1978_group_4.php
+17.|West Germany|Tunisia|2 - 1|../games/1978_argentina_france.php|1st Round, Group 2|1978_group_2.php
+18.|France|Hungary|2 - 1|../games/1978_argentina_france.php|1st Round, Group 1|1978_group_1.php
+19.|Italy|Argentina|1 - 0|../games/1978_italy_argentina.php|1st Round, Group 1|1978_group_1.php
+20.|Poland|Mexico|1 - 0|../games/1978_italy_argentina.php|1st Round, Group 2|1978_group_2.php
+21.|Brazil|Austria|1 - 0|../games/1978_italy_argentina.php|1st Round, Group 3|1978_group_3.php
+22.|Scotland|Holland|1 - 0|../games/1978_italy_argentina.php|1st Round, Group 4|1978_group_4.php
+23.|Spain|Sweden|1 - 0|../games/1978_italy_argentina.php|1st Round, Group 3|1978_group_3.php
+24.|Peru|Iran|1 - 0|../games/1978_italy_argentina.php|1st Round, Group 4|1978_group_4.php
+25.|West Germany|Italy|1 - 0|../games/1978_italy_argentina.php|2nd Round, Group A|1978_group_a.php
+26.|Argentina|Poland|2 - 0|../games/1978_argentina_poland.php|2nd Round, Group B|1978_group_b.php
+27.|Brazil|Peru|2 - 0|../games/1978_argentina_poland.php|2nd Round, Group B|1978_group_b.php
+28.|Holland|Austria|2 - 0|../games/1978_argentina_poland.php|2nd Round, Group A|1978_group_a.php
+29.|West Germany|Holland|2 - 0|../games/1978_argentina_poland.php|2nd Round, Group A|1978_group_a.php
+30.|Argentina|Brazil|0 - 0|../games/1978_argentina_brazil.php|2nd Round, Group B|1978_group_b.php
+31.|Italy|Austria|0 - 0|../games/1978_argentina_brazil.php|2nd Round, Group A|1978_group_a.php
+32.|Poland|Peru|0 - 0|../games/1978_argentina_brazil.php|2nd Round, Group B|1978_group_b.php
+33.|Argentina|Peru|6 - 0|../games/1978_argentina_peru.php|2nd Round, Group B|1978_group_b.php
+34.|Austria|West Germany|6 - 0|../games/1978_argentina_peru.php|2nd Round, Group A|1978_group_a.php
+35.|Brazil|Poland|6 - 0|../games/1978_argentina_peru.php|2nd Round, Group B|1978_group_b.php
+36.|Holland|Italy|6 - 0|../games/1978_argentina_peru.php|2nd Round, Group A|1978_group_a.php
+37.|Brazil|Italy|2 - 1|../games/1978_brazil_italy.php|2nd Round, Group A|1978_group_a.php
+38.|Argentina|Holland|3 - 1|../games/1978_argentina_holland.php|2nd Round, Group A|1978_group_a.php
+Game||||||
+1.|Brazil|Scotland|2 - 1|../games/1998_brazil_scotland.php|1st Round, Group A|1998_group_a.php
+2.|Morocco|Norway|2 - 1|../games/1998_brazil_scotland.php|1st Round, Group A|1998_group_a.php
+3.|Cameroon|Austria|2 - 1|../games/1998_brazil_scotland.php|1st Round, Group B|1998_group_b.php
+4.|Italy|Chile|2 - 2|../games/1998_italy_chile.php|1st Round, Group B|1998_group_b.php
+5.|Saudi Arabia|Denmark|2 - 2|../games/1998_italy_chile.php|1st Round, Group C|1998_group_c.php
+6.|France|South Africa|3 - 0|../games/1998_france_south_africa.php|1st Round, Group C|1998_group_c.php
+7.|Paraguay|Bulgaria|3 - 0|../games/1998_france_south_africa.php|1st Round, Group D|1998_group_d.php
+8.|Holland|Belgium|3 - 0|../games/1998_france_south_africa.php|1st Round, Group E|1998_group_e.php
+9.|South Korea|Mexico|3 - 0|../games/1998_france_south_africa.php|1st Round, Group E|1998_group_e.php
+10.|Spain|Nigeria|3 - 0|../games/1998_france_south_africa.php|1st Round, Group D|1998_group_d.php
+11.|Jamaica|Croatia|3 - 0|../games/1998_france_south_africa.php|1st Round, Group H|1998_group_h.php
+12.|FR of Yugoslavia|Iran|3 - 0|../games/1998_france_south_africa.php|1st Round, Group F|1998_group_f.php
+13.|Argentina|Japan|1 - 0|../games/1998_argentina_japan.php|1st Round, Group H|1998_group_h.php
+14.|Germany|USA|1 - 0|../games/1998_argentina_japan.php|1st Round, Group F|1998_group_f.php
+15.|Romania|Colombia|1 - 0|../games/1998_argentina_japan.php|1st Round, Group G|1998_group_g.php
+16.|England|Tunisia|2 - 0|../games/1998_england_tunisia.php|1st Round, Group G|1998_group_g.php
+17.|Scotland|Norway|2 - 0|../games/1998_england_tunisia.php|1st Round, Group A|1998_group_a.php
+18.|Brazil|Morocco|3 - 0|../games/1998_brazil_morocco.php|1st Round, Group A|1998_group_a.php
+19.|Chile|Austria|1 - 1|../games/1998_chile_austria.php|1st Round, Group B|1998_group_b.php
+20.|Italy|Cameroon|3 - 0|../games/1998_italy_cameroon.php|1st Round, Group B|1998_group_b.php
+21.|France|Saudi Arabia|4 - 0|../games/1998_france_saudi_arabia.php|1st Round, Group C|1998_group_c.php
+22.|South Africa|Denmark|4 - 0|../games/1998_france_saudi_arabia.php|1st Round, Group C|1998_group_c.php
+23.|Nigeria|Bulgaria|4 - 0|../games/1998_france_saudi_arabia.php|1st Round, Group D|1998_group_d.php
+24.|Spain|Paraguay|4 - 0|../games/1998_france_saudi_arabia.php|1st Round, Group D|1998_group_d.php
+25.|Holland|South Korea|4 - 0|../games/1998_france_saudi_arabia.php|1st Round, Group E|1998_group_e.php
+26.|Belgium|Mexico|4 - 0|../games/1998_france_saudi_arabia.php|1st Round, Group E|1998_group_e.php
+27.|Japan|Croatia|4 - 0|../games/1998_france_saudi_arabia.php|1st Round, Group H|1998_group_h.php
+28.|Argentina|Jamaica|5 - 0|../games/1998_argentina_jamaica.php|1st Round, Group H|1998_group_h.php
+29.|Germany|FR of Yugoslavia|5 - 0|../games/1998_argentina_jamaica.php|1st Round, Group F|1998_group_f.php
+30.|USA|Iran|5 - 0|../games/1998_argentina_jamaica.php|1st Round, Group F|1998_group_f.php
+31.|Colombia|Tunisia|1 - 0|../games/1998_colombia_tunisia.php|1st Round, Group G|1998_group_g.php
+32.|Romania|England|2 - 1|../games/1998_romania_england.php|1st Round, Group G|1998_group_g.php
+33.|Italy|Austria|2 - 1|../games/1998_italy_austria.php|1st Round, Group B|1998_group_b.php
+34.|Scotland|Morocco|2 - 1|../games/1998_italy_austria.php|1st Round, Group A|1998_group_a.php
+35.|Brazil|Norway|1 - 2|../games/1998_brazil_norway.php|1st Round, Group A|1998_group_a.php
+36.|Chile|Cameroon|1 - 1|../games/1998_chile_cameroon.php|1st Round, Group B|1998_group_b.php
+37.|Spain|Bulgaria|1 - 1|../games/1998_chile_cameroon.php|1st Round, Group D|1998_group_d.php
+38.|France|Denmark|2 - 1|../games/1998_france_denmark.php|1st Round, Group C|1998_group_c.php
+39.|Nigeria|Paraguay|2 - 1|../games/1998_france_denmark.php|1st Round, Group D|1998_group_d.php
+40.|South Africa|Saudi Arabia|2 - 1|../games/1998_france_denmark.php|1st Round, Group C|1998_group_c.php
+41.|Belgium|South Korea|2 - 1|../games/1998_france_denmark.php|1st Round, Group E|1998_group_e.php
+42.|Holland|Mexico|2 - 1|../games/1998_france_denmark.php|1st Round, Group E|1998_group_e.php
+43.|Germany|Iran|2 - 1|../games/1998_france_denmark.php|1st Round, Group F|1998_group_f.php
+44.|USA|FR of Yugoslavia|2 - 1|../games/1998_france_denmark.php|1st Round, Group F|1998_group_f.php
+45.|Romania|Tunisia|2 - 1|../games/1998_france_denmark.php|1st Round, Group G|1998_group_g.php
+46.|Colombia|England|0 - 2|../games/1998_colombia_england.php|1st Round, Group G|1998_group_g.php
+47.|Japan|Jamaica|0 - 2|../games/1998_colombia_england.php|1st Round, Group H|1998_group_h.php
+48.|Argentina|Croatia|1 - 0|../games/1998_argentina_croatia.php|1st Round, Group H|1998_group_h.php
+49.|Brazil|Chile|4 - 1|../games/1998_brazil_chile.php|1st Round, Group H|1998_group_h.php
+50.|Italy|Norway|1 - 0|../games/1998_italy_norway.php|1st Round, Group H|1998_group_h.php
+51.|Nigeria|Denmark|1 - 4|../games/1998_nigeria_denmark.php|1st Round, Group H|1998_group_h.php
+52.|France|Paraguay|1 - 0|../games/1998_france_paraguay.php|1st Round, Group H|1998_group_h.php
+53.|Germany|Mexico|2 - 1|../games/1998_germany_mexico.php|1st Round, Group H|1998_group_h.php
+54.|Holland|FR of Yugoslavia|2 - 1|../games/1998_holland_fr_of_yugoslavia.php|1st Round, Group H|1998_group_h.php
+55.|Argentina|England|2 - 2|../games/1998_argentina_england.php|1st Round, Group H|1998_group_h.php
+56.|Romania|Croatia|0 - 1|../games/1998_romania_croatia.php|1st Round, Group H|1998_group_h.php
+57.|Italy|France|0 - 0|../games/1998_italy_france.php|1st Round, Group H|1998_group_h.php
+58.|Brazil|Denmark|3 - 2|../games/1998_brazil_denmark.php|1st Round, Group H|1998_group_h.php
+59.|Germany|Croatia|0 - 3|../games/1998_germany_croatia.php|1st Round, Group H|1998_group_h.php
+60.|Holland|Argentina|2 - 1|../games/1998_holland_argentina.php|1st Round, Group H|1998_group_h.php
+61.|Brazil|Holland|1 - 1|../games/1998_brazil_holland.php|1st Round, Group H|1998_group_h.php
+62.|France|Croatia|2 - 1|../games/1998_france_croatia.php|1st Round, Group H|1998_group_h.php
+63.|Holland|Croatia|1 - 2|../games/1998_holland_croatia.php|1st Round, Group H|1998_group_h.php
+64.|Brazil|France|0 - 3|../games/1998_brazil_france.php|1st Round, Group H|1998_group_h.php
+Game||||||
+1.|England|Uruguay|0 - 0|../games/1966_england_uruguay.php|1st Round, Group 1|1966_group_1.php
+2.|West Germany|Switzerland|5 - 0|../games/1966_west_germany_switzerland.php|1st Round, Group 2|1966_group_2.php
+3.|Brazil|Bulgaria|2 - 0|../games/1966_brazil_bulgaria.php|1st Round, Group 3|1966_group_3.php
+4.|Soviet Union|North Korea|3 - 0|../games/1966_soviet_union_north_korea.php|1st Round, Group 4|1966_group_4.php
+5.|Argentina|Spain|2 - 1|../games/1966_argentina_spain.php|1st Round, Group 2|1966_group_2.php
+6.|France|Mexico|1 - 1|../games/1966_france_mexico.php|1st Round, Group 1|1966_group_1.php
+7.|Italy|Chile|2 - 0|../games/1966_italy_chile.php|1st Round, Group 4|1966_group_4.php
+8.|Portugal|Hungary|3 - 1|../games/1966_portugal_hungary.php|1st Round, Group 3|1966_group_3.php
+9.|North Korea|Chile|1 - 1|../games/1966_north_korea_chile.php|1st Round, Group 4|1966_group_4.php
+10.|Spain|Switzerland|2 - 1|../games/1966_spain_switzerland.php|1st Round, Group 2|1966_group_2.php
+11.|Hungary|Brazil|3 - 1|../games/1966_hungary_brazil.php|1st Round, Group 3|1966_group_3.php
+12.|Uruguay|France|2 - 1|../games/1966_uruguay_france.php|1st Round, Group 1|1966_group_1.php
+13.|West Germany|Argentina|0 - 0|../games/1966_west_germany_argentina.php|1st Round, Group 2|1966_group_2.php
+14.|England|Mexico|2 - 0|../games/1966_england_mexico.php|1st Round, Group 1|1966_group_1.php
+15.|Portugal|Bulgaria|3 - 0|../games/1966_portugal_bulgaria.php|1st Round, Group 3|1966_group_3.php
+16.|Soviet Union|Italy|1 - 0|../games/1966_soviet_union_italy.php|1st Round, Group 4|1966_group_4.php
+17.|Argentina|Switzerland|2 - 0|../games/1966_argentina_switzerland.php|1st Round, Group 2|1966_group_2.php
+18.|North Korea|Italy|1 - 0|../games/1966_north_korea_italy.php|1st Round, Group 4|1966_group_4.php
+19.|Portugal|Brazil|3 - 1|../games/1966_portugal_brazil.php|1st Round, Group 3|1966_group_3.php
+20.|Uruguay|Mexico|0 - 0|../games/1966_uruguay_mexico.php|1st Round, Group 1|1966_group_1.php
+21.|West Germany|Spain|2 - 1|../games/1966_west_germany_spain.php|1st Round, Group 2|1966_group_2.php
+22.|Hungary|Bulgaria|3 - 1|../games/1966_hungary_bulgaria.php|1st Round, Group 3|1966_group_3.php
+23.|England|France|2 - 0|../games/1966_england_france.php|1st Round, Group 1|1966_group_1.php
+24.|Soviet Union|Chile|2 - 1|../games/1966_soviet_union_chile.php|1st Round, Group 4|1966_group_4.php
+25.|West Germany|Uruguay|4 - 0|../games/1966_west_germany_uruguay.php|1st Round, Group 4|1966_group_4.php
+26.|England|Argentina|1 - 0|../games/1966_england_argentina.php|1st Round, Group 4|1966_group_4.php
+27.|Portugal|North Korea|5 - 3|../games/1966_portugal_north_korea.php|1st Round, Group 4|1966_group_4.php
+28.|Soviet Union|Hungary|2 - 1|../games/1966_soviet_union_hungary.php|1st Round, Group 4|1966_group_4.php
+29.|West Germany|Soviet Union|2 - 1|../games/1966_west_germany_soviet_union.php|1st Round, Group 4|1966_group_4.php
+30.|England|Portugal|2 - 1|../games/1966_england_portugal.php|1st Round, Group 4|1966_group_4.php
+31.|Portugal|Soviet Union|2 - 1|../games/1966_portugal_soviet_union.php|1st Round, Group 4|1966_group_4.php
+32.|England|West Germany|4 - 2|../games/1966_england_west_germany.php|1st Round, Group 4|1966_group_4.php
+Game||||||
+1.|Brazil|Yugoslavia|||1st Round, Group 2|1974_group_2.php
+2.|West Germany|Chile|1 - 0|../games/1974_west_germany_chile.php|1st Round, Group 1|1974_group_1.php
+3.|East Germany|Australia|1 - 0|../games/1974_west_germany_chile.php|1st Round, Group 1|1974_group_1.php
+4.|Zaire|Scotland|1 - 0|../games/1974_west_germany_chile.php|1st Round, Group 2|1974_group_2.php
+5.|Italy|Haiti|1 - 0|../games/1974_west_germany_chile.php|1st Round, Group 4|1974_group_4.php
+6.|Poland|Argentina|3 - 2|../games/1974_poland_argentina.php|1st Round, Group 4|1974_group_4.php
+7.|Sweden|Bulgaria|3 - 2|../games/1974_poland_argentina.php|1st Round, Group 3|1974_group_3.php
+8.|Uruguay|Holland|3 - 2|../games/1974_poland_argentina.php|1st Round, Group 3|1974_group_3.php
+9.|Australia|West Germany|0 - 3|../games/1974_australia_west_germany.php|1st Round, Group 1|1974_group_1.php
+10.|Chile|East Germany|0 - 3|../games/1974_australia_west_germany.php|1st Round, Group 1|1974_group_1.php
+11.|Scotland|Brazil|0 - 3|../games/1974_australia_west_germany.php|1st Round, Group 2|1974_group_2.php
+12.|Yugoslavia|Zaire|0 - 3|../games/1974_australia_west_germany.php|1st Round, Group 2|1974_group_2.php
+13.|Argentina|Italy|1 - 1|../games/1974_argentina_italy.php|1st Round, Group 4|1974_group_4.php
+14.|Bulgaria|Uruguay|1 - 1|../games/1974_argentina_italy.php|1st Round, Group 3|1974_group_3.php
+15.|Haiti|Poland|1 - 1|../games/1974_argentina_italy.php|1st Round, Group 4|1974_group_4.php
+16.|Holland|Sweden|1 - 1|../games/1974_argentina_italy.php|1st Round, Group 3|1974_group_3.php
+17.|East Germany|West Germany|1 - 0|../games/1974_east_germany_west_germany.php|1st Round, Group 1|1974_group_1.php
+18.|Australia|Chile|1 - 0|../games/1974_east_germany_west_germany.php|1st Round, Group 1|1974_group_1.php
+19.|Zaire|Brazil|1 - 0|../games/1974_east_germany_west_germany.php|1st Round, Group 2|1974_group_2.php
+20.|Scotland|Yugoslavia|1 - 0|../games/1974_east_germany_west_germany.php|1st Round, Group 2|1974_group_2.php
+21.|Argentina|Haiti|4 - 1|../games/1974_argentina_haiti.php|1st Round, Group 4|1974_group_4.php
+22.|Bulgaria|Holland|4 - 1|../games/1974_argentina_haiti.php|1st Round, Group 3|1974_group_3.php
+23.|Poland|Italy|4 - 1|../games/1974_argentina_haiti.php|1st Round, Group 4|1974_group_4.php
+24.|Sweden|Uruguay|4 - 1|../games/1974_argentina_haiti.php|1st Round, Group 3|1974_group_3.php
+25.|Brazil|East Germany|4 - 1|../games/1974_argentina_haiti.php|2nd Round, Group A|1974_group_a.php
+26.|Holland|Argentina|4 - 0|../games/1974_holland_argentina.php|2nd Round, Group A|1974_group_a.php
+27.|Yugoslavia|West Germany|0 - 2|../games/1974_yugoslavia_west_germany.php|2nd Round, Group B|1974_group_b.php
+28.|Sweden|Poland|0 - 2|../games/1974_yugoslavia_west_germany.php|2nd Round, Group B|1974_group_b.php
+29.|West Germany|Sweden|4 - 2|../games/1974_west_germany_sweden.php|2nd Round, Group B|1974_group_b.php
+30.|East Germany|Holland|4 - 2|../games/1974_west_germany_sweden.php|2nd Round, Group A|1974_group_a.php
+31.|Argentina|Brazil|1 - 2|../games/1974_argentina_brazil.php|2nd Round, Group A|1974_group_a.php
+32.|Poland|Yugoslavia|1 - 2|../games/1974_argentina_brazil.php|2nd Round, Group B|1974_group_b.php
+33.|Argentina|East Germany|1 - 1|../games/1974_argentina_east_germany.php|2nd Round, Group A|1974_group_a.php
+34.|Holland|Brazil|1 - 1|../games/1974_argentina_east_germany.php|2nd Round, Group A|1974_group_a.php
+35.|Poland|West Germany|0 - 1|../games/1974_poland_west_germany.php|2nd Round, Group B|1974_group_b.php
+36.|Sweden|Yugoslavia|0 - 1|../games/1974_poland_west_germany.php|2nd Round, Group B|1974_group_b.php
+37.|Brazil|Poland|0 - 1|../games/1974_brazil_poland.php|2nd Round, Group B|1974_group_b.php
+38.|Holland|West Germany|1 - 2|../games/1974_holland_west_germany.php|2nd Round, Group B|1974_group_b.php
+Game||||||
+1.|Argentina|Bulgaria|1 - 0|../games/1962_argentina_bulgaria.php|1st Round, Group 4|1962_group_4.php
+2.|Brazil|Mexico|2 - 0|../games/1962_brazil_mexico.php|1st Round, Group 3|1962_group_3.php
+3.|Chile|Switzerland|3 - 1|../games/1962_chile_switzerland.php|1st Round, Group 2|1962_group_2.php
+4.|Uruguay|Colombia|2 - 1|../games/1962_uruguay_colombia.php|1st Round, Group 1|1962_group_1.php
+5.|West Germany|Italy|0 - 0|../games/1962_west_germany_italy.php|1st Round, Group 2|1962_group_2.php
+6.|Czechoslovakia|Spain|1 - 0|../games/1962_czechoslovakia_spain.php|1st Round, Group 3|1962_group_3.php
+7.|Hungary|England|2 - 1|../games/1962_hungary_england.php|1st Round, Group 4|1962_group_4.php
+8.|Soviet Union|Yugoslavia|2 - 0|../games/1962_soviet_union_yugoslavia.php|1st Round, Group 1|1962_group_1.php
+9.|Brazil|Czechoslovakia|0 - 0|../games/1962_brazil_czechoslovakia.php|1st Round, Group 3|1962_group_3.php
+10.|Chile|Italy|2 - 0|../games/1962_chile_italy.php|1st Round, Group 2|1962_group_2.php
+11.|England|Argentina|3 - 1|../games/1962_england_argentina.php|1st Round, Group 4|1962_group_4.php
+12.|Yugoslavia|Uruguay|3 - 1|../games/1962_yugoslavia_uruguay.php|1st Round, Group 1|1962_group_1.php
+13.|West Germany|Switzerland|2 - 1|../games/1962_west_germany_switzerland.php|1st Round, Group 2|1962_group_2.php
+14.|Spain|Mexico|1 - 0|../games/1962_spain_mexico.php|1st Round, Group 3|1962_group_3.php
+15.|Hungary|Bulgaria|6 - 1|../games/1962_hungary_bulgaria.php|1st Round, Group 4|1962_group_4.php
+16.|Soviet Union|Colombia|4 - 4|../games/1962_soviet_union_colombia.php|1st Round, Group 1|1962_group_1.php
+17.|West Germany|Chile|2 - 0|../games/1962_west_germany_chile.php|1st Round, Group 2|1962_group_2.php
+18.|Brazil|Spain|2 - 1|../games/1962_brazil_spain.php|1st Round, Group 3|1962_group_3.php
+19.|Hungary|Argentina|0 - 0|../games/1962_hungary_argentina.php|1st Round, Group 4|1962_group_4.php
+20.|Soviet Union|Uruguay|2 - 1|../games/1962_soviet_union_uruguay.php|1st Round, Group 1|1962_group_1.php
+21.|England|Bulgaria|0 - 0|../games/1962_england_bulgaria.php|1st Round, Group 4|1962_group_4.php
+22.|Italy|Switzerland|3 - 0|../games/1962_italy_switzerland.php|1st Round, Group 2|1962_group_2.php
+23.|Mexico|Czechoslovakia|3 - 1|../games/1962_mexico_czechoslovakia.php|1st Round, Group 3|1962_group_3.php
+24.|Yugoslavia|Colombia|5 - 0|../games/1962_yugoslavia_colombia.php|1st Round, Group 1|1962_group_1.php
+25.|Brazil|England|3 - 1|../games/1962_brazil_england.php|1st Round, Group 1|1962_group_1.php
+26.|Czechoslovakia|Hungary|1 - 0|../games/1962_czechoslovakia_hungary.php|1st Round, Group 1|1962_group_1.php
+27.|Chile|Soviet Union|2 - 1|../games/1962_chile_soviet_union.php|1st Round, Group 1|1962_group_1.php
+28.|Yugoslavia|West Germany|1 - 0|../games/1962_yugoslavia_west_germany.php|1st Round, Group 1|1962_group_1.php
+29.|Chile|Brazil|2 - 4|../games/1962_chile_brazil.php|1st Round, Group 1|1962_group_1.php
+30.|Yugoslavia|Czechoslovakia|1 - 3|../games/1962_yugoslavia_czechoslovakia.php|1st Round, Group 1|1962_group_1.php
+31.|Chile|Yugoslavia|1 - 0|../games/1962_chile_yugoslavia.php|1st Round, Group 1|1962_group_1.php
+32.|Brazil|Czechoslovakia|3 - 1|../games/1962_brazil_czechoslovakia_2.php|1st Round, Group 1|1962_group_1.php
+Game||||||
+1.|Mexico|Soviet Union|||1st Round, Group 1|1970_group_1.php
+2.|England|Romania|||1st Round, Group 3|1970_group_3.php
+3.|Peru|Bulgaria|||1st Round, Group 4|1970_group_4.php
+4.|Uruguay|Israel|||1st Round, Group 2|1970_group_2.php
+5.|West Germany|Morocco|||1st Round, Group 4|1970_group_4.php
+6.|Belgium|El Salvador|||1st Round, Group 1|1970_group_1.php
+7.|Brazil|Czechoslovakia|4 - 1|../games/1970_brazil_czechoslovakia.php|1st Round, Group 3|1970_group_3.php
+8.|Italy|Sweden|4 - 1|../games/1970_brazil_czechoslovakia.php|1st Round, Group 2|1970_group_2.php
+9.|Peru|Morocco|4 - 1|../games/1970_brazil_czechoslovakia.php|1st Round, Group 4|1970_group_4.php
+10.|Romania|Czechoslovakia|4 - 1|../games/1970_brazil_czechoslovakia.php|1st Round, Group 3|1970_group_3.php
+11.|Soviet Union|Belgium|4 - 1|../games/1970_brazil_czechoslovakia.php|1st Round, Group 1|1970_group_1.php
+12.|Uruguay|Italy|4 - 1|../games/1970_brazil_czechoslovakia.php|1st Round, Group 2|1970_group_2.php
+13.|West Germany|Bulgaria|4 - 1|../games/1970_brazil_czechoslovakia.php|1st Round, Group 4|1970_group_4.php
+14.|Brazil|England|1 - 0|../games/1970_brazil_england.php|1st Round, Group 3|1970_group_3.php
+15.|Mexico|El Salvador|1 - 0|../games/1970_brazil_england.php|1st Round, Group 1|1970_group_1.php
+16.|Sweden|Israel|1 - 0|../games/1970_brazil_england.php|1st Round, Group 2|1970_group_2.php
+17.|West Germany|Peru|1 - 0|../games/1970_brazil_england.php|1st Round, Group 4|1970_group_4.php
+18.|Brazil|Romania|3 - 2|../games/1970_brazil_romania.php|1st Round, Group 3|1970_group_3.php
+19.|Soviet Union|El Salvador|3 - 2|../games/1970_brazil_romania.php|1st Round, Group 1|1970_group_1.php
+20.|Sweden|Uruguay|3 - 2|../games/1970_brazil_romania.php|1st Round, Group 2|1970_group_2.php
+21.|Bulgaria|Morocco|3 - 2|../games/1970_brazil_romania.php|1st Round, Group 4|1970_group_4.php
+22.|England|Czechoslovakia|3 - 2|../games/1970_brazil_romania.php|1st Round, Group 3|1970_group_3.php
+23.|Italy|Israel|3 - 2|../games/1970_brazil_romania.php|1st Round, Group 2|1970_group_2.php
+24.|Mexico|Belgium|3 - 2|../games/1970_brazil_romania.php|1st Round, Group 1|1970_group_1.php
+25.|West Germany|England|3 - 2|../games/1970_brazil_romania.php|1st Round, Group 1|1970_group_1.php
+26.|Brazil|Peru|4 - 2|../games/1970_brazil_peru.php|1st Round, Group 1|1970_group_1.php
+27.|Italy|Mexico|4 - 2|../games/1970_brazil_peru.php|1st Round, Group 1|1970_group_1.php
+28.|Uruguay|Soviet Union|4 - 2|../games/1970_brazil_peru.php|1st Round, Group 1|1970_group_1.php
+29.|Italy|West Germany|4 - 2|../games/1970_brazil_peru.php|1st Round, Group 1|1970_group_1.php
+30.|Uruguay|Brazil|1 - 3|../games/1970_uruguay_brazil.php|1st Round, Group 1|1970_group_1.php
+31.|Uruguay|West Germany|1 - 3|../games/1970_uruguay_brazil.php|1st Round, Group 1|1970_group_1.php
+32.|Brazil|Italy|4 - 1|../games/1970_brazil_italy.php|1st Round, Group 1|1970_group_1.php
+Game||||||
+1.|France|Senegal|||1st Round, Group A|2002_group_a.php
+2.|Ireland|Cameroon|||1st Round, Group E|2002_group_e.php
+3.|Uruguay|Denmark|||1st Round, Group A|2002_group_a.php
+4.|Germany|Saudi Arabia|||1st Round, Group E|2002_group_e.php
+5.|England|Sweden|||1st Round, Group F|2002_group_f.php
+6.|Paraguay|South Africa|||1st Round, Group B|2002_group_b.php
+7.|Argentina|Nigeria|1 - 0|../games/2002_argentina_nigeria.php|1st Round, Group F|2002_group_f.php
+8.|Spain|Slovenia|1 - 0|../games/2002_argentina_nigeria.php|1st Round, Group B|2002_group_b.php
+9.|Croatia|Mexico|1 - 0|../games/2002_argentina_nigeria.php|1st Round, Group G|2002_group_g.php
+10.|Brazil|Turkey|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group C|2002_group_c.php
+11.|Italy|Ecuador|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group G|2002_group_g.php
+12.|China|Costa Rica|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group C|2002_group_c.php
+13.|Japan|Belgium|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group H|2002_group_h.php
+14.|South Korea|Poland|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group D|2002_group_d.php
+15.|Russia|Tunisia|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group H|2002_group_h.php
+16.|USA|Portugal|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group D|2002_group_d.php
+17.|Germany|Ireland|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group E|2002_group_e.php
+18.|France|Uruguay|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group A|2002_group_a.php
+19.|Cameroon|Saudi Arabia|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group E|2002_group_e.php
+20.|Denmark|Senegal|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group A|2002_group_a.php
+21.|Sweden|Nigeria|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group F|2002_group_f.php
+22.|Spain|Paraguay|2 - 1|../games/2002_brazil_turkey.php|1st Round, Group B|2002_group_b.php
+23.|Argentina|England|0 - 1|../games/2002_argentina_england.php|1st Round, Group F|2002_group_f.php
+24.|South Africa|Slovenia|0 - 1|../games/2002_argentina_england.php|1st Round, Group B|2002_group_b.php
+25.|Italy|Croatia|0 - 1|../games/2002_argentina_england.php|1st Round, Group G|2002_group_g.php
+26.|Brazil|China|4 - 0|../games/2002_brazil_china.php|1st Round, Group C|2002_group_c.php
+27.|Mexico|Ecuador|4 - 0|../games/2002_brazil_china.php|1st Round, Group G|2002_group_g.php
+28.|Costa Rica|Turkey|4 - 0|../games/2002_brazil_china.php|1st Round, Group C|2002_group_c.php
+29.|Japan|Russia|4 - 0|../games/2002_brazil_china.php|1st Round, Group H|2002_group_h.php
+30.|South Korea|USA|4 - 0|../games/2002_brazil_china.php|1st Round, Group D|2002_group_d.php
+31.|Tunisia|Belgium|4 - 0|../games/2002_brazil_china.php|1st Round, Group H|2002_group_h.php
+32.|Portugal|Poland|4 - 0|../games/2002_brazil_china.php|1st Round, Group D|2002_group_d.php
+33.|Denmark|France|4 - 0|../games/2002_brazil_china.php|1st Round, Group A|2002_group_a.php
+34.|Senegal|Uruguay|4 - 0|../games/2002_brazil_china.php|1st Round, Group A|2002_group_a.php
+35.|Cameroon|Germany|4 - 0|../games/2002_brazil_china.php|1st Round, Group E|2002_group_e.php
+36.|Saudi Arabia|Ireland|4 - 0|../games/2002_brazil_china.php|1st Round, Group E|2002_group_e.php
+37.|Sweden|Argentina|1 - 1|../games/2002_sweden_argentina.php|1st Round, Group F|2002_group_f.php
+38.|Nigeria|England|1 - 1|../games/2002_sweden_argentina.php|1st Round, Group F|2002_group_f.php
+39.|South Africa|Spain|1 - 1|../games/2002_sweden_argentina.php|1st Round, Group B|2002_group_b.php
+40.|Slovenia|Paraguay|1 - 1|../games/2002_sweden_argentina.php|1st Round, Group B|2002_group_b.php
+41.|Costa Rica|Brazil|2 - 5|../games/2002_costa_rica_brazil.php|1st Round, Group C|2002_group_c.php
+42.|Turkey|China|2 - 5|../games/2002_costa_rica_brazil.php|1st Round, Group C|2002_group_c.php
+43.|Mexico|Italy|2 - 5|../games/2002_costa_rica_brazil.php|1st Round, Group G|2002_group_g.php
+44.|Ecuador|Croatia|2 - 5|../games/2002_costa_rica_brazil.php|1st Round, Group G|2002_group_g.php
+45.|Tunisia|Japan|2 - 5|../games/2002_costa_rica_brazil.php|1st Round, Group H|2002_group_h.php
+46.|Belgium|Russia|2 - 5|../games/2002_costa_rica_brazil.php|1st Round, Group H|2002_group_h.php
+47.|Portugal|South Korea|2 - 5|../games/2002_costa_rica_brazil.php|1st Round, Group D|2002_group_d.php
+48.|Poland|USA|2 - 5|../games/2002_costa_rica_brazil.php|1st Round, Group D|2002_group_d.php
+49.|Germany|Paraguay|1 - 0|../games/2002_germany_paraguay.php|1st Round, Group D|2002_group_d.php
+50.|Denmark|England|0 - 3|../games/2002_denmark_england.php|1st Round, Group D|2002_group_d.php
+51.|Sweden|Senegal|1 - 2|../games/2002_sweden_senegal.php|1st Round, Group D|2002_group_d.php
+52.|Spain|Ireland|1 - 1|../games/2002_spain_ireland.php|1st Round, Group D|2002_group_d.php
+53.|Mexico|USA|0 - 2|../games/2002_mexico_usa.php|1st Round, Group D|2002_group_d.php
+54.|Brazil|Belgium|2 - 0|../games/2002_brazil_belgium.php|1st Round, Group D|2002_group_d.php
+55.|Japan|Turkey|0 - 1|../games/2002_japan_turkey.php|1st Round, Group D|2002_group_d.php
+56.|South Korea|Italy|2 - 1|../games/2002_south_korea_italy.php|1st Round, Group D|2002_group_d.php
+57.|England|Brazil|1 - 2|../games/2002_england_brazil.php|1st Round, Group D|2002_group_d.php
+58.|Germany|USA|1 - 0|../games/2002_germany_usa.php|1st Round, Group D|2002_group_d.php
+59.|Spain|South Korea|0 - 0|../games/2002_spain_south_korea.php|1st Round, Group D|2002_group_d.php
+60.|Senegal|Turkey|0 - 1|../games/2002_senegal_turkey.php|1st Round, Group D|2002_group_d.php
+61.|Germany|South Korea|1 - 0|../games/2002_germany_south_korea.php|1st Round, Group D|2002_group_d.php
+62.|Brazil|Turkey|1 - 0|../games/2002_brazil_turkey_2.php|1st Round, Group D|2002_group_d.php
+63.|South Korea|Turkey|2 - 3|../games/2002_south_korea_turkey.php|1st Round, Group D|2002_group_d.php
+64.|Germany|Brazil|0 - 2|../games/2002_germany_brazil.php|1st Round, Group D|2002_group_d.php
+Game||||||
+1.|Austria|Scotland|1 - 0|../games/1954_austria_scotland.php|1st Round, Group 3|1954_group_3.php
+2.|Brazil|Mexico|5 - 0|../games/1954_brazil_mexico.php|1st Round, Group 1|1954_group_1.php
+3.|Yugoslavia|France|1 - 0|../games/1954_yugoslavia_france.php|1st Round, Group 1|1954_group_1.php
+4.|Uruguay|Czechoslovakia|2 - 0|../games/1954_uruguay_czechoslovakia.php|1st Round, Group 3|1954_group_3.php
+5.|West Germany|Turkey|4 - 1|../games/1954_west_germany_turkey.php|1st Round, Group 2|1954_group_2.php
+6.|Hungary|South Korea|9 - 0|../games/1954_hungary_south_korea.php|1st Round, Group 2|1954_group_2.php
+7.|England|Belgium|4 - 4|../games/1954_england_belgium.php|1st Round, Group 4|1954_group_4.php
+8.|Switzerland|Italy|2 - 1|../games/1954_switzerland_italy.php|1st Round, Group 4|1954_group_4.php
+9.|Austria|Czechoslovakia|5 - 0|../games/1954_austria_czechoslovakia.php|1st Round, Group 3|1954_group_3.php
+10.|Brazil|Yugoslavia|1 - 1|../games/1954_brazil_yugoslavia.php|1st Round, Group 1|1954_group_1.php
+11.|France|Mexico|3 - 2|../games/1954_france_mexico.php|1st Round, Group 1|1954_group_1.php
+12.|Uruguay|Scotland|7 - 0|../games/1954_uruguay_scotland.php|1st Round, Group 3|1954_group_3.php
+13.|Hungary|West Germany|8 - 3|../games/1954_hungary_west_germany.php|1st Round, Group 2|1954_group_2.php
+14.|England|Switzerland|2 - 0|../games/1954_england_switzerland.php|1st Round, Group 4|1954_group_4.php
+15.|Italy|Belgium|4 - 1|../games/1954_italy_belgium.php|1st Round, Group 4|1954_group_4.php
+16.|Turkey|South Korea|7 - 0|../games/1954_turkey_south_korea.php|1st Round, Group 2|1954_group_2.php
+17.|West Germany|Turkey|7 - 2|../games/1954_west_germany_turkey_2.php|1st Round, Group 2|1954_group_2.php
+18.|Switzerland|Italy|4 - 1|../games/1954_switzerland_italy_2.php|1st Round, Group 4|1954_group_4.php
+19.|Austria|Switzerland|7 - 5|../games/1954_austria_switzerland.php|1st Round, Group 4|1954_group_4.php
+20.|Uruguay|England|4 - 2|../games/1954_uruguay_england.php|1st Round, Group 4|1954_group_4.php
+21.|West Germany|Yugoslavia|2 - 0|../games/1954_west_germany_yugoslavia.php|1st Round, Group 4|1954_group_4.php
+22.|Hungary|Brazil|4 - 2|../games/1954_hungary_brazil.php|1st Round, Group 4|1954_group_4.php
+23.|West Germany|Austria|6 - 1|../games/1954_west_germany_austria.php|1st Round, Group 4|1954_group_4.php
+24.|Hungary|Uruguay|4 - 2|../games/1954_hungary_uruguay.php|1st Round, Group 4|1954_group_4.php
+25.|Uruguay|Austria|1 - 3|../games/1954_uruguay_austria.php|1st Round, Group 4|1954_group_4.php
+26.|Hungary|West Germany|2 - 3|../games/1954_hungary_west_germany_2.php|1st Round, Group 4|1954_group_4.php
+Game||||||
+1.|France|Mexico|4 - 1|../games/1930_france_mexico.php|1st Round, Group 1|1930_group_1.php
+2.|USA|Belgium|3 - 0|../games/1930_usa_belgium.php|1st Round, Group 4|1930_group_4.php
+3.|Romania|Peru|3 - 1|../games/1930_romania_peru.php|1st Round, Group 3|1930_group_3.php
+4.|Yugoslavia|Brazil|2 - 1|../games/1930_yugoslavia_brazil.php|1st Round, Group 2|1930_group_2.php
+5.|Argentina|France|1 - 0|../games/1930_argentina_france.php|1st Round, Group 1|1930_group_1.php
+6.|Chile|Mexico|3 - 0|../games/1930_chile_mexico.php|1st Round, Group 1|1930_group_1.php
+7.|Yugoslavia|Bolivia|4 - 0|../games/1930_yugoslavia_bolivia.php|1st Round, Group 2|1930_group_2.php
+8.|USA|Paraguay|3 - 0|../games/1930_usa_paraguay.php|1st Round, Group 4|1930_group_4.php
+9.|Uruguay|Peru|1 - 0|../games/1930_uruguay_peru.php|1st Round, Group 3|1930_group_3.php
+10.|Argentina|Mexico|6 - 3|../games/1930_argentina_mexico.php|1st Round, Group 1|1930_group_1.php
+11.|Chile|France|1 - 0|../games/1930_chile_france.php|1st Round, Group 1|1930_group_1.php
+12.|Brazil|Bolivia|4 - 0|../games/1930_brazil_bolivia.php|1st Round, Group 2|1930_group_2.php
+13.|Paraguay|Belgium|1 - 0|../games/1930_paraguay_belgium.php|1st Round, Group 4|1930_group_4.php
+14.|Uruguay|Romania|4 - 0|../games/1930_uruguay_romania.php|1st Round, Group 3|1930_group_3.php
+15.|Argentina|Chile|3 - 1|../games/1930_argentina_chile.php|1st Round, Group 1|1930_group_1.php
+16.|Argentina|USA|6 - 1|../games/1930_argentina_usa.php|1st Round, Group 1|1930_group_1.php
+17.|Uruguay|Yugoslavia|6 - 1|../games/1930_uruguay_yugoslavia.php|1st Round, Group 1|1930_group_1.php
+18.|Argentina|Uruguay|2 - 4|../games/1930_argentina_uruguay.php|1st Round, Group 1|1930_group_1.php
+Game||||||
+1.|Germany|Costa Rica|4 - 2|../games/2006_germany_costa_rica.php|1st Round, Group A|2006_group_a.php
+2.|Poland|Ecuador|0 - 2|../games/2006_poland_ecuador.php|1st Round, Group A|2006_group_a.php
+3.|England|Paraguay|1 - 0|../games/2006_england_paraguay.php|1st Round, Group B|2006_group_b.php
+4.|Trinidad and Tobago|Sweden|0 - 0|../games/2006_trinidad_and_tobago_sweden.php|1st Round, Group B|2006_group_b.php
+5.|Argentina|Ivory Coast|2 - 1|../games/2006_argentina_ivory_coast.php|1st Round, Group C|2006_group_c.php
+6.|Serbia and Montenegro|Holland|0 - 1|../games/2006_serbia_and_montenegro_holland.php|1st Round, Group C|2006_group_c.php
+7.|Mexico|Iran|3 - 1|../games/2006_mexico_iran.php|1st Round, Group D|2006_group_d.php
+8.|Angola|Portugal|0 - 1|../games/2006_angola_portugal.php|1st Round, Group D|2006_group_d.php
+9.|Italy|Ghana|2 - 0|../games/2006_italy_ghana.php|1st Round, Group E|2006_group_e.php
+10.|USA|Czech Republic|0 - 3|../games/2006_usa_czech_republic.php|1st Round, Group E|2006_group_e.php
+11.|Australia|Japan|3 - 1|../games/2006_australia_japan.php|1st Round, Group F|2006_group_f.php
+12.|Brazil|Croatia|1 - 0|../games/2006_brazil_croatia.php|1st Round, Group F|2006_group_f.php
+13.|France|Switzerland|0 - 0|../games/2006_france_switzerland.php|1st Round, Group G|2006_group_g.php
+14.|South Korea|Togo|2 - 1|../games/2006_south_korea_togo.php|1st Round, Group G|2006_group_g.php
+15.|Spain|Ukraine|4 - 0|../games/2006_spain_ukraine.php|1st Round, Group H|2006_group_h.php
+16.|Tunisia|Saudi Arabia|2 - 2|../games/2006_tunisia_saudi_arabia.php|1st Round, Group H|2006_group_h.php
+17.|Germany|Poland|1 - 0|../games/2006_germany_poland.php|1st Round, Group A|2006_group_a.php
+18.|Ecuador|Costa Rica|3 - 0|../games/2006_ecuador_costa_rica.php|1st Round, Group A|2006_group_a.php
+19.|England|Trinidad and Tobago|2 - 0|../games/2006_england_trinidad_and_tobago.php|1st Round, Group B|2006_group_b.php
+20.|Sweden|Paraguay|1 - 0|../games/2006_sweden_paraguay.php|1st Round, Group B|2006_group_b.php
+21.|Argentina|Serbia and Montenegro|6 - 0|../games/2006_argentina_serbia_and_montenegro.php|1st Round, Group C|2006_group_c.php
+22.|Holland|Ivory Coast|2 - 1|../games/2006_holland_ivory_coast.php|1st Round, Group C|2006_group_c.php
+23.|Mexico|Angola|0 - 0|../games/2006_mexico_angola.php|1st Round, Group D|2006_group_d.php
+24.|Portugal|Iran|2 - 0|../games/2006_portugal_iran.php|1st Round, Group D|2006_group_d.php
+25.|Italy|USA|1 - 1|../games/2006_italy_usa.php|1st Round, Group E|2006_group_e.php
+26.|Czech Republic|Ghana|0 - 2|../games/2006_czech_republic_ghana.php|1st Round, Group E|2006_group_e.php
+27.|Brazil|Australia|2 - 0|../games/2006_brazil_australia.php|1st Round, Group F|2006_group_f.php
+28.|Japan|Croatia|0 - 0|../games/2006_japan_croatia.php|1st Round, Group F|2006_group_f.php
+29.|France|South Korea|1 - 1|../games/2006_france_south_korea.php|1st Round, Group G|2006_group_g.php
+30.|Togo|Switzerland|0 - 2|../games/2006_togo_switzerland.php|1st Round, Group G|2006_group_g.php
+31.|Spain|Tunisia|3 - 1|../games/2006_spain_tunisia.php|1st Round, Group H|2006_group_h.php
+32.|Saudi Arabia|Ukraine|0 - 4|../games/2006_saudi_arabia_ukraine.php|1st Round, Group H|2006_group_h.php
+33.|Ecuador|Germany|0 - 3|../games/2006_ecuador_germany.php|1st Round, Group A|2006_group_a.php
+34.|Costa Rica|Poland|1 - 2|../games/2006_costa_rica_poland.php|1st Round, Group A|2006_group_a.php
+35.|Sweden|England|2 - 2|../games/2006_sweden_england.php|1st Round, Group B|2006_group_b.php
+36.|Paraguay|Trinidad and Tobago|2 - 0|../games/2006_paraguay_trinidad_and_tobago.php|1st Round, Group B|2006_group_b.php
+37.|Holland|Argentina|0 - 0|../games/2006_holland_argentina.php|1st Round, Group C|2006_group_c.php
+38.|Ivory Coast|Serbia and Montenegro|3 - 2|../games/2006_ivory_coast_serbia_and_montenegro.php|1st Round, Group C|2006_group_c.php
+39.|Portugal|Mexico|2 - 1|../games/2006_portugal_mexico.php|1st Round, Group D|2006_group_d.php
+40.|Iran|Angola|1 - 1|../games/2006_iran_angola.php|1st Round, Group D|2006_group_d.php
+41.|Czech Republic|Italy|0 - 2|../games/2006_czech_republic_italy.php|1st Round, Group E|2006_group_e.php
+42.|Ghana|USA|2 - 1|../games/2006_ghana_usa.php|1st Round, Group E|2006_group_e.php
+43.|Japan|Brazil|1 - 4|../games/2006_japan_brazil.php|1st Round, Group F|2006_group_f.php
+44.|Croatia|Australia|2 - 2|../games/2006_croatia_australia.php|1st Round, Group F|2006_group_f.php
+45.|Togo|France|0 - 2|../games/2006_togo_france.php|1st Round, Group G|2006_group_g.php
+46.|Switzerland|South Korea|2 - 0|../games/2006_switzerland_south_korea.php|1st Round, Group G|2006_group_g.php
+47.|Saudi Arabia|Spain|0 - 1|../games/2006_saudi_arabia_spain.php|1st Round, Group H|2006_group_h.php
+48.|Ukraine|Tunisia|1 - 0|../games/2006_ukraine_tunisia.php|1st Round, Group H|2006_group_h.php
+49.|Germany|Sweden|2 - 0|../games/2006_germany_sweden.php|1st Round, Group H|2006_group_h.php
+50.|Argentina|Mexico|2 - 1|../games/2006_argentina_mexico.php|1st Round, Group H|2006_group_h.php
+51.|England|Ecuador|1 - 0|../games/2006_england_ecuador.php|1st Round, Group H|2006_group_h.php
+52.|Portugal|Holland|1 - 0|../games/2006_portugal_holland.php|1st Round, Group H|2006_group_h.php
+53.|Italy|Australia|1 - 0|../games/2006_italy_australia.php|1st Round, Group H|2006_group_h.php
+54.|Switzerland|Ukraine|0 - 0|../games/2006_switzerland_ukraine.php|1st Round, Group H|2006_group_h.php
+55.|Brazil|Ghana|3 - 0|../games/2006_brazil_ghana.php|1st Round, Group H|2006_group_h.php
+56.|Spain|France|1 - 3|../games/2006_spain_france.php|1st Round, Group H|2006_group_h.php
+57.|Germany|Argentina|1 - 1|../games/2006_germany_argentina.php|1st Round, Group H|2006_group_h.php
+58.|Italy|Ukraine|3 - 0|../games/2006_italy_ukraine.php|1st Round, Group H|2006_group_h.php
+59.|England|Portugal|0 - 0|../games/2006_england_portugal.php|1st Round, Group H|2006_group_h.php
+60.|Brazil|France|0 - 1|../games/2006_brazil_france.php|1st Round, Group H|2006_group_h.php
+61.|Germany|Italy|0 - 2|../games/2006_germany_italy.php|1st Round, Group H|2006_group_h.php
+62.|Portugal|France|0 - 1|../games/2006_portugal_france.php|1st Round, Group H|2006_group_h.php
+63.|Germany|Portugal|3 - 1|../games/2006_germany_portugal.php|1st Round, Group H|2006_group_h.php
+64.|Italy|France|1 - 1|../games/2006_italy_france.php|1st Round, Group H|2006_group_h.php
+Game||||||
+1.|Brazil|Mexico|4 - 0|../games/1950_brazil_mexico.php|1st Round, Group 1|1950_group_1.php
+2.|Spain|USA|3 - 1|../games/1950_spain_usa.php|1st Round, Group 2|1950_group_2.php
+3.|England|Chile|2 - 0|../games/1950_england_chile.php|1st Round, Group 2|1950_group_2.php
+4.|Yugoslavia|Switzerland|3 - 0|../games/1950_yugoslavia_switzerland.php|1st Round, Group 1|1950_group_1.php
+5.|Sweden|Italy|3 - 2|../games/1950_sweden_italy.php|1st Round, Group 3|1950_group_3.php
+6.|Brazil|Switzerland|2 - 2|../games/1950_brazil_switzerland.php|1st Round, Group 1|1950_group_1.php
+7.|Yugoslavia|Mexico|4 - 1|../games/1950_yugoslavia_mexico.php|1st Round, Group 1|1950_group_1.php
+8.|Spain|Chile|2 - 0|../games/1950_spain_chile.php|1st Round, Group 2|1950_group_2.php
+9.|Sweden|Paraguay|2 - 2|../games/1950_sweden_paraguay.php|1st Round, Group 3|1950_group_3.php
+10.|USA|England|1 - 0|../games/1950_usa_england.php|1st Round, Group 2|1950_group_2.php
+11.|Brazil|Yugoslavia|2 - 0|../games/1950_brazil_yugoslavia.php|1st Round, Group 1|1950_group_1.php
+12.|Chile|USA|5 - 2|../games/1950_chile_usa.php|1st Round, Group 2|1950_group_2.php
+13.|Spain|England|1 - 0|../games/1950_spain_england.php|1st Round, Group 2|1950_group_2.php
+14.|Italy|Paraguay|2 - 0|../games/1950_italy_paraguay.php|1st Round, Group 3|1950_group_3.php
+15.|Switzerland|Mexico|2 - 1|../games/1950_switzerland_mexico.php|1st Round, Group 1|1950_group_1.php
+16.|Uruguay|Bolivia|8 - 0|../games/1950_uruguay_bolivia.php|1st Round, Group 4|1950_group_4.php
+17.|Brazil|Sweden|7 - 1|../games/1950_brazil_sweden.php|1st Round, Group 4|1950_group_f.php
+18.|Uruguay|Spain|2 - 2|../games/1950_uruguay_spain.php|1st Round, Group 4|1950_group_f.php
+19.|Brazil|Spain|6 - 1|../games/1950_brazil_spain.php|1st Round, Group 4|1950_group_f.php
+20.|Uruguay|Sweden|3 - 2|../games/1950_uruguay_sweden.php|1st Round, Group 4|1950_group_f.php
+21.|Sweden|Spain|3 - 1|../games/1950_sweden_spain.php|1st Round, Group 4|1950_group_f.php
+22.|Uruguay|Brazil|2 - 1|../games/1950_uruguay_brazil.php|1st Round, Group 4|1950_group_f.php
+Game||||||
+1.|Germany|Belgium|5 - 2|../games/1934_germany_belgium.php||
+2.|Austria|France|3 - 2|../games/1934_austria_france.php||
+3.|Czechoslovakia|Romania|2 - 1|../games/1934_czechoslovakia_romania.php||
+4.|Spain|Brazil|3 - 1|../games/1934_spain_brazil.php||
+5.|Hungary|Egypt|4 - 2|../games/1934_hungary_egypt.php||
+6.|Italy|USA|7 - 1|../games/1934_italy_usa.php||
+7.|Sweden|Argentina|3 - 2|../games/1934_sweden_argentina.php||
+8.|Switzerland|Holland|3 - 2|../games/1934_switzerland_holland.php||
+9.|Germany|Sweden|2 - 1|../games/1934_germany_sweden.php||
+10.|Austria|Hungary|2 - 1|../games/1934_austria_hungary.php||
+11.|Czechoslovakia|Switzerland|3 - 2|../games/1934_czechoslovakia_switzerland.php||
+12.|Italy|Spain|1 - 1|../games/1934_italy_spain.php||
+13.|Italy|Spain|1 - 0|../games/1934_italy_spain_2.php||
+14.|Czechoslovakia|Germany|3 - 1|../games/1934_czechoslovakia_germany.php||
+15.|Italy|Austria|1 - 0|../games/1934_italy_austria.php||
+16.|Austria|Germany|2 - 3|../games/1934_austria_germany.php||
+17.|Italy|Czechoslovakia|2 - 1|../games/1934_italy_czechoslovakia.php||
+Game||||||
+1.|South Africa|Mexico|1 - 1|../games/2010_south_africa_mexico.php|1st Round, Group A|2010_group_a.php
+2.|Uruguay|France|0 - 0|../games/2010_uruguay_france.php|1st Round, Group A|2010_group_a.php
+3.|Argentina|Nigeria|1 - 0|../games/2010_argentina_nigeria.php|1st Round, Group B|2010_group_b.php
+4.|South Korea|Greece|2 - 0|../games/2010_south_korea_greece.php|1st Round, Group B|2010_group_b.php
+5.|England|USA|1 - 1|../games/2010_england_usa.php|1st Round, Group C|2010_group_c.php
+6.|Algeria|Slovenia|0 - 1|../games/2010_algeria_slovenia.php|1st Round, Group C|2010_group_c.php
+7.|Germany|Australia|4 - 0|../games/2010_germany_australia.php|1st Round, Group D|2010_group_d.php
+8.|Serbia|Ghana|0 - 1|../games/2010_serbia_ghana.php|1st Round, Group D|2010_group_d.php
+9.|Holland|Denmark|2 - 0|../games/2010_holland_denmark.php|1st Round, Group E|2010_group_e.php
+10.|Japan|Cameroon|1 - 0|../games/2010_japan_cameroon.php|1st Round, Group E|2010_group_e.php
+11.|Italy|Paraguay|1 - 1|../games/2010_italy_paraguay.php|1st Round, Group F|2010_group_f.php
+12.|New Zealand|Slovakia|1 - 1|../games/2010_new_zealand_slovakia.php|1st Round, Group F|2010_group_f.php
+13.|Ivory Coast|Portugal|0 - 0|../games/2010_ivory_coast_portugal.php|1st Round, Group G|2010_group_g.php
+14.|Brazil|North Korea|2 - 1|../games/2010_brazil_north_korea.php|1st Round, Group G|2010_group_g.php
+15.|Honduras|Chile|0 - 1|../games/2010_honduras_chile.php|1st Round, Group H|2010_group_h.php
+16.|Spain|Switzerland|0 - 1|../games/2010_spain_switzerland.php|1st Round, Group H|2010_group_h.php
+17.|South Africa|Uruguay|0 - 3|../games/2010_south_africa_uruguay.php|1st Round, Group A|2010_group_a.php
+18.|France|Mexico|0 - 2|../games/2010_france_mexico.php|1st Round, Group A|2010_group_a.php
+19.|Greece|Nigeria|2 - 1|../games/2010_greece_nigeria.php|1st Round, Group B|2010_group_b.php
+20.|Argentina|South Korea|4 - 1|../games/2010_argentina_south_korea.php|1st Round, Group B|2010_group_b.php
+21.|Germany|Serbia|0 - 1|../games/2010_germany_serbia.php|1st Round, Group D|2010_group_d.php
+22.|Slovenia|USA|2 - 2|../games/2010_slovenia_usa.php|1st Round, Group C|2010_group_c.php
+23.|England|Algeria|0 - 0|../games/2010_england_algeria.php|1st Round, Group C|2010_group_c.php
+24.|Ghana|Australia|1 - 1|../games/2010_ghana_australia.php|1st Round, Group D|2010_group_d.php
+25.|Holland|Japan|1 - 0|../games/2010_holland_japan.php|1st Round, Group E|2010_group_e.php
+26.|Cameroon|Denmark|1 - 2|../games/2010_cameroon_denmark.php|1st Round, Group E|2010_group_e.php
+27.|Slovakia|Paraguay|0 - 2|../games/2010_slovakia_paraguay.php|1st Round, Group F|2010_group_f.php
+28.|Italy|New Zealand|1 - 1|../games/2010_italy_new_zealand.php|1st Round, Group F|2010_group_f.php
+29.|Brazil|Ivory Coast|3 - 1|../games/2010_brazil_ivory_coast.php|1st Round, Group G|2010_group_g.php
+30.|Portugal|North Korea|7 - 0|../games/2010_portugal_north_korea.php|1st Round, Group G|2010_group_g.php
+31.|Chile|Switzerland|1 - 0|../games/2010_chile_switzerland.php|1st Round, Group H|2010_group_h.php
+32.|Spain|Honduras|2 - 0|../games/2010_spain_honduras.php|1st Round, Group H|2010_group_h.php
+33.|Mexico|Uruguay|0 - 1|../games/2010_mexico_uruguay.php|1st Round, Group A|2010_group_a.php
+34.|France|South Africa|1 - 2|../games/2010_france_south_africa.php|1st Round, Group A|2010_group_a.php
+35.|Nigeria|South Korea|2 - 2|../games/2010_nigeria_south_korea.php|1st Round, Group B|2010_group_b.php
+36.|Greece|Argentina|0 - 2|../games/2010_greece_argentina.php|1st Round, Group B|2010_group_b.php
+37.|Slovenia|England|0 - 1|../games/2010_slovenia_england.php|1st Round, Group C|2010_group_c.php
+38.|USA|Algeria|1 - 0|../games/2010_usa_algeria.php|1st Round, Group C|2010_group_c.php
+39.|Ghana|Germany|0 - 1|../games/2010_ghana_germany.php|1st Round, Group D|2010_group_d.php
+40.|Australia|Serbia|2 - 1|../games/2010_australia_serbia.php|1st Round, Group D|2010_group_d.php
+41.|Slovakia|Italy|3 - 2|../games/2010_slovakia_italy.php|1st Round, Group F|2010_group_f.php
+42.|Paraguay|New Zealand|0 - 0|../games/2010_paraguay_new_zealand.php|1st Round, Group F|2010_group_f.php
+43.|Denmark|Japan|1 - 3|../games/2010_denmark_japan.php|1st Round, Group E|2010_group_e.php
+44.|Cameroon|Holland|1 - 2|../games/2010_cameroon_holland.php|1st Round, Group E|2010_group_e.php
+45.|Portugal|Brazil|0 - 0|../games/2010_portugal_brazil.php|1st Round, Group G|2010_group_g.php
+46.|North Korea|Ivory Coast|0 - 3|../games/2010_north_korea_ivory_coast.php|1st Round, Group G|2010_group_g.php
+47.|Chile|Spain|1 - 2|../games/2010_chile_spain.php|1st Round, Group H|2010_group_h.php
+48.|Switzerland|Honduras|0 - 0|../games/2010_switzerland_honduras.php|1st Round, Group H|2010_group_h.php
+49.|Uruguay|South Korea|2 - 1|../games/2010_uruguay_south_korea.php|1st Round, Group H|2010_group_h.php
+50.|USA|Ghana|1 - 2|../games/2010_usa_ghana.php|1st Round, Group H|2010_group_h.php
+51.|Germany|England|4 - 1|../games/2010_germany_england.php|1st Round, Group H|2010_group_h.php
+52.|Argentina|Mexico|3 - 1|../games/2010_argentina_mexico.php|1st Round, Group H|2010_group_h.php
+53.|Holland|Slovakia|2 - 1|../games/2010_holland_slovakia.php|1st Round, Group H|2010_group_h.php
+54.|Brazil|Chile|3 - 0|../games/2010_brazil_chile.php|1st Round, Group H|2010_group_h.php
+55.|Paraguay|Japan|0 - 0|../games/2010_paraguay_japan.php|1st Round, Group H|2010_group_h.php
+56.|Spain|Portugal|1 - 0|../games/2010_spain_portugal.php|1st Round, Group H|2010_group_h.php
+57.|Holland|Brazil|2 - 1|../games/2010_holland_brazil.php|1st Round, Group H|2010_group_h.php
+58.|Uruguay|Ghana|1 - 1|../games/2010_uruguay_ghana.php|1st Round, Group H|2010_group_h.php
+59.|Argentina|Germany|0 - 4|../games/2010_argentina_germany.php|1st Round, Group H|2010_group_h.php
+60.|Paraguay|Spain|0 - 1|../games/2010_paraguay_spain.php|1st Round, Group H|2010_group_h.php
+61.|Uruguay|Holland|2 - 3|../games/2010_uruguay_holland.php|1st Round, Group H|2010_group_h.php
+62.|Germany|Spain|0 - 1|../games/2010_germany_spain.php|1st Round, Group H|2010_group_h.php
+63.|Uruguay|Germany|2 - 3|../games/2010_uruguay_germany.php|1st Round, Group H|2010_group_h.php
+64.|Holland|Spain|0 - 1|../games/2010_holland_spain.php|1st Round, Group H|2010_group_h.php
+Game||||||
+1.|Brazil|Croatia|||1st Round, Group A|2014_group_a.php
+2.|Mexico|Cameroon|||1st Round, Group A|2014_group_a.php
+3.|Spain|Holland|||1st Round, Group B|2014_group_b.php
+4.|Chile|Australia|||1st Round, Group B|2014_group_b.php
+5.|Colombia|Greece|||1st Round, Group C|2014_group_c.php
+6.|Ivory Coast|Japan|||1st Round, Group C|2014_group_c.php
+7.|Uruguay|Costa Rica|||1st Round, Group D|2014_group_d.php
+8.|England|Italy|||1st Round, Group D|2014_group_d.php
+9.|Switzerland|Ecuador|||1st Round, Group E|2014_group_e.php
+10.|France|Honduras|||1st Round, Group E|2014_group_e.php
+11.|Argentina|Bosnia and Herzegovina|||1st Round, Group F|2014_group_f.php
+12.|Iran|Nigeria|||1st Round, Group F|2014_group_f.php
+13.|Germany|Portugal|||1st Round, Group G|2014_group_g.php
+14.|Ghana|USA|||1st Round, Group G|2014_group_g.php
+15.|Belgium|Algeria|||1st Round, Group H|2014_group_h.php
+16.|Russia|South Korea|||1st Round, Group H|2014_group_h.php
+17.|Brazil|Mexico|||1st Round, Group A|2014_group_a.php
+18.|Cameroon|Croatia|||1st Round, Group A|2014_group_a.php
+19.|Spain|Chile|||1st Round, Group B|2014_group_b.php
+20.|Australia|Holland|||1st Round, Group B|2014_group_b.php
+21.|Colombia|Ivory Coast|||1st Round, Group C|2014_group_c.php
+22.|Japan|Greece|||1st Round, Group C|2014_group_c.php
+23.|Uruguay|England|||1st Round, Group D|2014_group_d.php
+24.|Italy|Costa Rica|||1st Round, Group D|2014_group_d.php
+25.|Switzerland|France|||1st Round, Group E|2014_group_e.php
+26.|Honduras|Ecuador|||1st Round, Group E|2014_group_e.php
+27.|Argentina|Iran|||1st Round, Group F|2014_group_f.php
+28.|Nigeria|Bosnia and Herzegovina|||1st Round, Group F|2014_group_f.php
+29.|Germany|Ghana|||1st Round, Group G|2014_group_g.php
+30.|USA|Portugal|||1st Round, Group G|2014_group_g.php
+31.|Belgium|Russia|||1st Round, Group H|2014_group_h.php
+32.|South Korea|Algeria|||1st Round, Group H|2014_group_h.php
+33.|Cameroon|Brazil|||1st Round, Group A|2014_group_a.php
+34.|Croatia|Mexico|||1st Round, Group A|2014_group_a.php
+35.|Australia|Spain|||1st Round, Group B|2014_group_b.php
+36.|Holland|Chile|||1st Round, Group B|2014_group_b.php
+37.|Japan|Colombia|||1st Round, Group C|2014_group_c.php
+38.|Greece|Ivory Coast|||1st Round, Group C|2014_group_c.php
+39.|Italy|Uruguay|||1st Round, Group D|2014_group_d.php
+40.|Costa Rica|England|||1st Round, Group D|2014_group_d.php
+41.|Honduras|Switzerland|||1st Round, Group E|2014_group_e.php
+42.|Ecuador|France|||1st Round, Group E|2014_group_e.php
+43.|Nigeria|Argentina|||1st Round, Group F|2014_group_f.php
+44.|Bosnia and Herzegovina|Iran|||1st Round, Group F|2014_group_f.php
+45.|USA|Germany|||1st Round, Group G|2014_group_g.php
+46.|Portugal|Ghana|||1st Round, Group G|2014_group_g.php
+47.|South Korea|Belgium|||1st Round, Group H|2014_group_h.php
+48.|Algeria|Russia|||1st Round, Group H|2014_group_h.php
