@@ -82,7 +82,21 @@ class ResultsAndGroupData:
 
         for match_result_url in self.match_result_urls:
             url  = self.url_prefix_match + match_result_url.replace( '../' , '' )
-            print url 
+            page = get_page( url )
+            self.match_results( page , url )
+            exit()
+
+    def match_results( self , html_content , url ):
+
+       page  = html.fromstring( html_content )
+       table = page.xpath('//html//body//div//div[2]//article//div//table//tr')
+
+       for table_row in table:
+           for table_data in table_row.findall( 'td' ):
+               if 'width' in table_data.attrib:
+                   if table_data.attrib['width'] == "35%":
+                       print table_data.text       
+         
 
     def group_results( self , html_content , url ):
 
@@ -101,6 +115,7 @@ class ResultsAndGroupData:
         ga            = ''
         gd            = ''
 
+        groupresults_file = open( 'data/results.csv' , 'ab' )
 
         for table_row in table:
             row_number = 0
@@ -136,7 +151,9 @@ class ResultsAndGroupData:
                 elif row_number == 10:
                     gd  = table_data.text
 
-            print serial_number + "|" + team + "|" + pts + "|" + gp + "|" + w + "|" + d + "|" + l + "|" + gs + "|" + ga + "|" + gd + "|" + qualification + "|" + url 
+            groupresults_file.write( serial_number + "|" + team + "|" + pts + "|" + gp + "|" + w + "|" + d + "|" + l + "|" + gs + "|" + ga + "|" + gd + "|" + qualification + "|" + url + "\n" )
+
+        groupresults_file.close()
 
                  
 
