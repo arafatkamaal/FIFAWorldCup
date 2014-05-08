@@ -87,6 +87,9 @@ class Overview:
     def get_overall_winner_stats( self ):
 
         section = sections['overview']
+
+        overview_file = open( 'data/overview.csv' , 'wb' )
+
         for year_wise_url in year_wise_urls.keys():
             url  = year_wise_urls[year_wise_url] + section
             page = get_page( url )
@@ -95,10 +98,12 @@ class Overview:
                 print 'Unable to process to overwall winner stats for url ' + url
                 exit()
 
-            #champion = self.get_champion( page )
-            overview  = self.get_results_overview( page )
-            print overview
+            champion = self.get_champion( page )
+            overview = self.get_results_overview( page )
 
+            overview_file.write( champion + "," + overview + "," + url + "\n" )
+
+        overview_file.close()
 
 
 #####################################################################
