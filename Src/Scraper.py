@@ -55,6 +55,11 @@ sections = {
 
 class ResultsAndGroupData:
 
+    group_summary_urls = {}
+    match_result_urls  = {}
+
+    url_prefix         = "http://thesoccerworldcups.com/world_cups/" 
+
     def get_results( self ):
 
         section = sections['results']
@@ -64,6 +69,17 @@ class ResultsAndGroupData:
             page = get_page( url )
 
             self.brief_results( page )
+            return
+
+    def get_group_results( self ):
+
+        print self.group_summary_urls
+
+        for group_summary_url in self.group_summary_urls:
+            url = self.url_prefix + group_summary_url
+
+            print url
+        
 
     def brief_results( self , html_content ):
 
@@ -106,6 +122,7 @@ class ResultsAndGroupData:
                         for a in score:
                             result        = a.text
                             match_summary = a.attrib['href']
+                            self.match_result_urls[match_summary] = 1
                 else:
                     groups = table_data.findall( 'a' )
                     for a in groups:
@@ -113,6 +130,8 @@ class ResultsAndGroupData:
                             group         = a.text.strip()
                         if re.search ( 'group' , a.attrib['href'] ):
                             group_summary = a.attrib['href'].strip()
+                            self.group_summary_urls[group_summary] = 1
+                            
 
             overview_file.write( serial_number + "|" + first_team + "|" + second_team + "|" + result + "|" + match_summary + "|" + group + "|" + group_summary + "\n" )
 
@@ -237,8 +256,9 @@ def get_wc_years_venues( html_content ):
 create_directory( 'data' )
 #get_wc_years_venues( root_data )
 
-overall_stats = Overview();
-overall_stats.get_overall_winner_stats()
+#overall_stats = Overview();
+#overall_stats.get_overall_winner_stats()
 
 result_stats = ResultsAndGroupData()
 result_stats.get_results()
+result_stats.get_group_results()
