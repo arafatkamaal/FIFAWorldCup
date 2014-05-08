@@ -58,7 +58,8 @@ class ResultsAndGroupData:
     group_summary_urls = {}
     match_result_urls  = {}
 
-    url_prefix         = "http://thesoccerworldcups.com/world_cups/" 
+    url_prefix_groups  = "http://thesoccerworldcups.com/world_cups/" 
+    url_prefix_match   = "http://thesoccerworldcups.com/"
 
     def get_results( self ):
 
@@ -74,10 +75,14 @@ class ResultsAndGroupData:
     def get_group_results( self ):
 
         for group_summary_url in self.group_summary_urls:
-            url  = self.url_prefix + group_summary_url
-            page = get_page( url )
-            self.group_results( page , url )
-            exit() 
+            url  = self.url_prefix_groups + group_summary_url
+            #page = get_page( url )
+            #self.group_results( page , url )
+            #exit()
+
+        for match_result_url in self.match_result_urls:
+            url  = self.url_prefix_match + match_result_url.replace( '../' , '' )
+            print url 
 
     def group_results( self , html_content , url ):
 
