@@ -8,8 +8,11 @@
 from lxml import html
 from io import BytesIO
 import urllib2
+import codecs
 import os
 import re
+import requests
+import hashlib
 
 #####################################################################
 # Global variables and constants                                    #
@@ -95,10 +98,10 @@ class ResultsAndGroupData:
        first_team_goal_scorers = ''
        second_team_goal_scorers = ''
 
-       matchresults_file = open( 'data/matchresults.csv' , 'ab' )
-       players_file      = open( 'data/players.csv' , 'ab'      )
-       cards_file        = open( 'data/cards.csv' , 'ab'        )
-       replacements_file = open( 'data/replacements.csv' , 'ab' )
+       matchresults_file = codecs.open( 'data/matchresults.csv' , 'ab' , encoding='utf8' )
+       players_file      = codecs.open( 'data/players.csv'      , 'ab' , encoding='utf8' )
+       cards_file        = codecs.open( 'data/cards.csv'        , 'ab' , encoding='utf8' )
+       replacements_file = codecs.open( 'data/replacements.csv' , 'ab' , encoding='utf8' )
 
        for table_row in table:
            for table_data in table_row.findall( 'td' ):
@@ -141,7 +144,10 @@ class ResultsAndGroupData:
 
                if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "right" ):
                    for div in table_data.findall( 'div' ):
-                       jersey   = div.text.strip()
+                       try:
+                           jersey   = div.text.strip()
+                       except:
+                           jersey   = ''
 
                if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "left" ):
                    if table_data.text is not None:
@@ -160,7 +166,10 @@ class ResultsAndGroupData:
 
               if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "right" ):
                   for div in table_data.findall( 'div' ):
-                      jersey   = div.text.strip()
+                      try:
+                          jersey   = div.text.strip()
+                      except:
+                          jersey   = ''
 
               if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "left" ):
                   if table_data.text is not None:
@@ -243,7 +252,7 @@ class ResultsAndGroupData:
         ga            = ''
         gd            = ''
 
-        groupresults_file = open( 'data/results.csv' , 'ab' )
+        groupresults_file = codecs.open( 'data/results.csv' , 'ab' , encoding='utf8' )
 
         for table_row in table:
             row_number = 0
@@ -297,7 +306,7 @@ class ResultsAndGroupData:
         group         = ''
         group_summary = ''
 
-        overview_file = open( 'data/results.csv' , 'ab' )
+        overview_file = codecs.open( 'data/results.csv' , 'ab' , encoding='utf8' )
 
         page  = html.fromstring( html_content )
         table = page.xpath('//html//body//div//div[2]//article//div//table//tr[@align="center"]')
@@ -337,8 +346,10 @@ class ResultsAndGroupData:
                             group_summary = a.attrib['href'].strip()
                             self.group_summary_urls[group_summary] = 1
                             
-
-            overview_file.write( serial_number + "|" + first_team + "|" + second_team + "|" + result + "|" + match_summary + "|" + group + "|" + group_summary + "\n" )
+            try:
+                overview_file.write( serial_number + "|" + first_team + "|" + second_team + "|" + result + "|" + match_summary + "|" + group + "|" + group_summary + "\n" )
+            except:
+                pass
 
         overview_file.close()
                 
@@ -380,7 +391,7 @@ class Overview:
 
         section = sections['overview']
 
-        overview_file = open( 'data/overview.csv' , 'ab' )
+        overview_file = codecs.open( 'data/overview.csv' , 'ab' , encoding='utf8' )
 
         for year_wise_url in year_wise_urls.keys():
             url  = year_wise_urls[year_wise_url] + section
@@ -402,7 +413,7 @@ class Overview:
 # Implementation of functions starts here                           #
 #####################################################################
 
-def get_page( url ):
+def get_page_original( url ):
 
     if not url:
         return False
@@ -420,6 +431,31 @@ def get_page( url ):
         print "The url" + url + "returned with error code " + e.code + " and " + e.read()
         return False
 
+if not os.path.exists('.cache'):
+    os.makedirs('.cache')
+
+ua = 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.116 Safari/537.36'
+session = requests.Session()
+
+def get_page(url):
+    '''Return cached lxml tree for url'''
+    path = os.path.join('.cache', hashlib.md5(url).hexdigest() + '.html')
+    if not os.path.exists(path):
+        print "Getting : " + url
+        try:
+            response = session.get(url, headers={'User-Agent': ua})
+        except:
+            response = ''
+        with open(path, 'w') as fd:
+            fd.write(response.text.encode('utf-8'))
+
+    else:
+        print "Url already " + url + " exists at " + path
+
+    with codecs.open( path , 'r' , encoding='utf8') as htmlfile:
+        data = htmlfile.read()
+    return data
+
 
 def create_directory( directory ):
 
@@ -432,7 +468,7 @@ def get_wc_years_venues( html_content ):
     if not html_content:
         return False
 
-    main_file = open( 'data/mainfile.csv' , 'wb' )
+    main_file = codecs.open( 'data/mainfile.csv' , 'wb' , encoding='utf-8' )
 
     try:
 
