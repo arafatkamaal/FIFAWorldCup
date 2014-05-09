@@ -91,11 +91,36 @@ class ResultsAndGroupData:
        page  = html.fromstring( html_content )
        table = page.xpath('//html//body//div//div[2]//article//div//table//tr')
 
+       first_team  = ''
+       second_team = ''
+       first_team_score = ''
+       second_team_score = ''
+       first_team_goal_scorers = ''
+       second_team_goal_scorers = ''
+
        for table_row in table:
            for table_data in table_row.findall( 'td' ):
                if 'width' in table_data.attrib:
+
                    if table_data.attrib['width'] == "35%":
-                       print table_data.text       
+                       if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "right" ):
+                           first_team = table_data.text
+                       else:
+                           second_team = table_data.text
+
+                   if table_data.attrib['width'] == "5%":
+                       if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "right" ):
+                           first_team_score  = table_data.text
+                       else:
+                           second_team_score = table_data.text
+
+               if 'colspan' in table_data.attrib:           
+
+                   if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "right" ):
+                       first_team_goal_scorers = first_team_goal_scorers + "|" + table_data.text
+                   if ( 'align' not in table_data.attrib ):
+                       for img in table_data.findall( 'img' ):
+                           second_team_goal_scorers = second_team_goal_scorers + "".join([x for x in table_data.itertext()]).strip()
          
 
     def group_results( self , html_content , url ):
