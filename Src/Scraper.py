@@ -121,6 +121,45 @@ class ResultsAndGroupData:
                    if ( 'align' not in table_data.attrib ):
                        for img in table_data.findall( 'img' ):
                            second_team_goal_scorers = second_team_goal_scorers + "".join([x for x in table_data.itertext()]).strip()
+
+       table = page.xpath('//html//body//div//div[2]//article//div//div[2]//table//tr')
+
+       position = ''
+       jersey   = ''
+       player   = ''
+       for table_row in table:
+           for table_data in table_row.findall( 'td' ):
+
+               if ( 'height' in table_data.attrib ) and ( table_data.attrib['height'] == "20" ):
+                   if table_data.text is not None:
+                       position = table_data.text.strip()
+
+               if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "right" ):
+                   for div in table_data.findall( 'div' ):
+                       jersey   = div.text.strip()
+
+               if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "left" ):
+                   if table_data.text is not None:
+                       player = table_data.text.strip()
+
+       table = page.xpath('/html/body/div/div[2]/article/div/div[3]/table//tr')
+
+       for table_row in table:
+          for table_data in table_row.findall( 'td' ):
+
+              if ( 'height' in table_data.attrib ) and ( table_data.attrib['height'] == "20" ):
+                  if table_data.text is not None:
+                      position = table_data.text.strip()
+
+              if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "right" ):
+                  for div in table_data.findall( 'div' ):
+                      jersey   = div.text.strip()
+
+              if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "left" ):
+                  if table_data.text is not None:
+                      player = table_data.text.strip()
+
+          print position + "," + jersey + "," + player 
          
 
     def group_results( self , html_content , url ):
