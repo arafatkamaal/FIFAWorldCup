@@ -70,21 +70,18 @@ class ResultsAndGroupData:
             page = get_page( url )
 
             self.brief_results( page )
-            return
 
     def get_group_results( self ):
 
         for group_summary_url in self.group_summary_urls:
             url  = self.url_prefix_groups + group_summary_url
-            #page = get_page( url )
-            #self.group_results( page , url )
-            #exit()
+            page = get_page( url )
+            self.group_results( page , url )
 
         for match_result_url in self.match_result_urls:
             url  = self.url_prefix_match + match_result_url.replace( '../' , '' )
             page = get_page( url )
             self.match_results( page , url )
-            exit()
 
     def match_results( self , html_content , url ):
 
@@ -97,6 +94,11 @@ class ResultsAndGroupData:
        second_team_score = ''
        first_team_goal_scorers = ''
        second_team_goal_scorers = ''
+
+       matchresults_file = open( 'data/matchresults.csv' , 'ab' )
+       players_file      = open( 'data/players.csv' , 'ab'      )
+       cards_file        = open( 'data/cards.csv' , 'ab'        )
+       replacements_file = open( 'data/replacements.csv' , 'ab' )
 
        for table_row in table:
            for table_data in table_row.findall( 'td' ):
@@ -122,6 +124,9 @@ class ResultsAndGroupData:
                        for img in table_data.findall( 'img' ):
                            second_team_goal_scorers = second_team_goal_scorers + "".join([x for x in table_data.itertext()]).strip()
 
+       matchresults_file.write( first_team + "," + second_team + "," + first_team_score + "," + second_team_score + "," + first_team_goal_scorers + "," + second_team_goal_scorers + "," + url + "\n" )
+
+
        table = page.xpath('//html//body//div//div[2]//article//div//div[2]//table//tr')
 
        position = ''
@@ -142,6 +147,8 @@ class ResultsAndGroupData:
                    if table_data.text is not None:
                        player = table_data.text.strip()
 
+           players_file.write( first_team + "," + position + "," + jersey + "," + player + "," + url + "\n" )
+
        table = page.xpath('/html/body/div/div[2]/article/div/div[3]/table//tr')
 
        for table_row in table:
@@ -159,7 +166,7 @@ class ResultsAndGroupData:
                   if table_data.text is not None:
                       player = table_data.text.strip()
 
-          #print position + "," + jersey + "," + player
+          players_file.write( second_team + "," + position + "," + jersey + "," + player + "," + url + "\n" )
 
        table = page.xpath('//html//body//div//div[2]//article//div//table[2]//tr')
 
@@ -181,7 +188,7 @@ class ResultsAndGroupData:
                    card =  "".join([x for x in table_data.itertext()]).strip()
 
 
-           #print team + "," + player + "," + card
+           cards_file.write( team + "," + player + "," + card + "," + url + "\n")
 
        country = ''
        minute  = ''
@@ -190,12 +197,14 @@ class ResultsAndGroupData:
 
        table = page.xpath('//html//body//div//div[2]//article//div//table[3]//tr') 
 
+       country_count = 0
        for table_row in table:
            for table_data in table_row.findall( 'td' ):
                if ( 'height' in table_data.attrib ) and ( table_data.attrib['height'] == "35" ):
                    for strong_text in table_data.findall( 'strong' ):
                        countries = [x.attrib['alt'] for x in strong_text.findall( 'img' )]
                        country   = countries[0]
+                       country_count = country_count + 1
 
                if country != "":
                    if ( 'align' in table_row.attrib ) and ( table_row.attrib['align'] == "left" ):
@@ -208,8 +217,13 @@ class ResultsAndGroupData:
                        if ( 'align' not in table_data.attrib ) and ( 'height' not in table_data.attrib ) and ( 'width' not in table_data.attrib ):
                           replacement = table_data.text.strip()
 
-           if ( 'align' in table_row.attrib ) and ( table_row.attrib['align'] == "left" ):
-               print country + "," + minute + "," + original + "," + replacement
+           if ( 'align' in table_row.attrib ) and ( table_row.attrib['align'] == "left" ) and ( country != "" ):
+               replacements_file.write( country + "," + minute + "," + original + "," + replacement + "," + url + "\n")
+
+       matchresults_file.close()
+       players_file.close()
+       cards_file.close()
+       replacements_file.close()
                
 
     def group_results( self , html_content , url ):
@@ -442,13 +456,13 @@ def get_wc_years_venues( html_content ):
 # Main function                                                     #
 #####################################################################
 
-#root_data = get_page( 'http://thesoccerworldcups.com/world_cups.php' )
+root_data = get_page( 'http://thesoccerworldcups.com/world_cups.php' )
 
 create_directory( 'data' )
-#get_wc_years_venues( root_data )
+get_wc_years_venues( root_data )
 
-#overall_stats = Overview();
-#overall_stats.get_overall_winner_stats()
+overall_stats = Overview();
+overall_stats.get_overall_winner_stats()
 
 result_stats = ResultsAndGroupData()
 result_stats.get_results()
