@@ -181,7 +181,36 @@ class ResultsAndGroupData:
                    card =  "".join([x for x in table_data.itertext()]).strip()
 
 
-           print team + "," + player + "," + card 
+           #print team + "," + player + "," + card
+
+       country = ''
+       minute  = ''
+       original = ''
+       replacement = ''
+
+       table = page.xpath('//html//body//div//div[2]//article//div//table[3]//tr') 
+
+       for table_row in table:
+           for table_data in table_row.findall( 'td' ):
+               if ( 'height' in table_data.attrib ) and ( table_data.attrib['height'] == "35" ):
+                   for strong_text in table_data.findall( 'strong' ):
+                       countries = [x.attrib['alt'] for x in strong_text.findall( 'img' )]
+                       country   = countries[0]
+
+               if country != "":
+                   if ( 'align' in table_row.attrib ) and ( table_row.attrib['align'] == "left" ):
+                       if ( 'height' in table_data.attrib ) and ( table_data.attrib['height'] == "20" ):
+                          minute = table_data.text
+
+                       if ( 'align' in table_data.attrib ) and ( table_data.attrib['align'] == "right" ):
+                          original = table_data.text.strip()
+
+                       if ( 'align' not in table_data.attrib ) and ( 'height' not in table_data.attrib ) and ( 'width' not in table_data.attrib ):
+                          replacement = table_data.text.strip()
+
+           if ( 'align' in table_row.attrib ) and ( table_row.attrib['align'] == "left" ):
+               print country + "," + minute + "," + original + "," + replacement
+               
 
     def group_results( self , html_content , url ):
 
