@@ -159,8 +159,29 @@ class ResultsAndGroupData:
                   if table_data.text is not None:
                       player = table_data.text.strip()
 
-          print position + "," + jersey + "," + player 
-         
+          #print position + "," + jersey + "," + player
+
+       table = page.xpath('//html//body//div//div[2]//article//div//table[2]//tr')
+
+       team = ''
+       player = ''
+       card = ''
+       for table_row in table:
+           column = 0
+           for table_data in table_row.findall( 'td' ):
+               column = column + 1
+               if ( 'height' in table_data.attrib ) and ( table_data.attrib['height'] == "20" ):
+                   for img in table_data.findall( 'img' ):
+                       team = "".join([x for x in table_data.itertext()]).strip()              
+
+               if ( table_data.text is not None ) and ( column == 3 ):
+                   player =  table_data.text.strip()
+
+               if ( table_data.text is not None ) and ( column == 5 ):
+                   card =  "".join([x for x in table_data.itertext()]).strip()
+
+
+           print team + "," + player + "," + card 
 
     def group_results( self , html_content , url ):
 
