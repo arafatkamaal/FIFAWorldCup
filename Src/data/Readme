@@ -6,3 +6,6 @@ To normalize the match results file:
 
 To normalize the cards file:
     cat cards.csv | perl -nle 'chomp;@a=split(/,/);print if 4 == @a'
+
+To import the data:
+    sqlite3 fifa.sqlite3 < import.sql    
