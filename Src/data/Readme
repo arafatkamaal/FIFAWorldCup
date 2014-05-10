@@ -1,0 +1,5 @@
+
+From mainfile from the line for 1952.
+
+To normalize the match results file:
+    cat matchresults.csv | perl -nle 'chomp;@a=split(/,/);print if 7 == @a'
