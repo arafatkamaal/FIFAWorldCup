@@ -7,6 +7,25 @@
 
 import codecs
 import os
+import sqlite3
+
+#####################################################################
+#Global declarations                                                #
+#####################################################################
+
+Queries = {
+              'Red cards given to world cup winners'    : "SELECT Player,Card,Country FROM cards WHERE Country='France' AND Card LIKE '%red%' AND Country IN (SELECT Country FROM Overview)",
+              'Yellow cards given to world cup winners' : "SELECT Player,Card,Country FROM cards WHERE Country='France' AND Card LIKE '%yellow%' AND Country IN (SELECT Country FROM Overview)"
+          }
+
+Headers = {
+              'Red cards given to world cup winners'    : [ 'Player' , 'Card' , 'Country' ],
+              'Yellow cards given to world cup winners' : [ 'Player' , 'Card' , 'Country' ]     
+          }
+
+#####################################################################
+#Global declarations end here                                       #
+#####################################################################
 
 
 def write_to_file( html_file , data ):
@@ -59,6 +78,7 @@ def generate_table_row( html_file , fields ):
 
 insights_directory = 'insights'
 insights_file      = insights_directory + "/insights.html"
+database           = 'data/fifa.sqlite3'
 
 if not os.path.exists( insights_directory ):
     os.makedirs( insights_directory  )
@@ -79,6 +99,13 @@ write_to_file( insights_file , '<br>' )
 #generate_table_row( insights_file , row2 )
 #generate_table_header( insights_file , None , True , '' )
 
+connection = sqlite3.connect( database )
+for insight in Queries.keys():
+    generate_table_header( insights_file , Headers[insight] , False , insight ) 
+    cursor = connection.execute( Queries[insight] )
+    for row in cursor:
+        generate_table_row( insights_file , row )
+    generate_table_header( insights_file , None , True , '' ) 
 
 
 generate_html_footer( insights_file )
