@@ -15,12 +15,16 @@ import sqlite3
 
 Queries = {
               'Red cards given to world cup winners'    : "SELECT Player,Card,Country FROM cards WHERE Country='France' AND Card LIKE '%red%' AND Country IN (SELECT Country FROM Overview)",
-              'Yellow cards given to world cup winners' : "SELECT Player,Card,Country FROM cards WHERE Country='France' AND Card LIKE '%yellow%' AND Country IN (SELECT Country FROM Overview)"
+              'Yellow cards given to world cup winners' : "SELECT Player,Card,Country FROM cards WHERE Country='France' AND Card LIKE '%yellow%' AND Country IN (SELECT Country FROM Overview)",
+              'Count of countries that made past qualifying rounds'       : 'SELECT COUNT(Country),Country FROM Group_Results WHERE Qualification="Yes" GROUP BY Country',
+              'Count of countries that didnt made past qualifying rounds' : 'SELECT COUNT(Country),Country FROM Group_Results WHERE Qualification="Yes" GROUP BY Country'
           }
 
 Headers = {
               'Red cards given to world cup winners'    : [ 'Player' , 'Card' , 'Country' ],
-              'Yellow cards given to world cup winners' : [ 'Player' , 'Card' , 'Country' ]     
+              'Yellow cards given to world cup winners' : [ 'Player' , 'Card' , 'Country' ],
+              'Count of countries that made past qualifying rounds'       : [ 'Count' , 'Country' ],
+              'Count of countries that didnt made past qualifying rounds' : [ 'Count' , 'Country' ]     
           }
 
 #####################################################################
@@ -69,7 +73,7 @@ def generate_table_row( html_file , fields ):
 
     write_to_file( html_file , '<tr>'  )
     for field in fields:
-        write_to_file( html_file , '<td>' + field + '</td>' )
+        write_to_file( html_file , '<td>' + str( field ) + '</td>' )
     write_to_file( html_file , '</tr>' )
 
 ##########################
