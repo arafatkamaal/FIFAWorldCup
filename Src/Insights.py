@@ -13,6 +13,9 @@ import sqlite3
 #Global declarations                                                #
 #####################################################################
 
+#Add any queries with their title as the key here, the same must be added to the 
+#Headers dictionary with the table headers.
+
 Queries = {
               'Red cards given to world cup winners'    : "SELECT Player,Card,Country FROM cards WHERE Country='France' AND Card LIKE '%red%' AND Country IN (SELECT Country FROM Overview)",
               'Yellow cards given to world cup winners' : "SELECT Player,Card,Country FROM cards WHERE Country='France' AND Card LIKE '%yellow%' AND Country IN (SELECT Country FROM Overview)",
