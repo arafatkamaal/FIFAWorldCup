@@ -68,21 +68,17 @@ generate_html_header( insights_file )
 write_to_file( insights_file ,'<br><br><h1 style="font-family:Nobile; text-align:center">FIFA World cup Insights<h1>' )
 
 
-write_to_file( insights_file , '<br><br><br>' )
+write_to_file( insights_file , '<br>' )
 
-header = [ 'one' , 'two' , 'three' ]
-row1   = [ '1' , '2' , '3' ]
-row2   = [ '4' , '5' , '6' ]
+#Generating a sample table.
+#header = [ 'one' , 'two' , 'three' ]
+#row1   = [ '1' , '2' , '3' ]
+#row2   = [ '4' , '5' , '6' ]
+#generate_table_header( insights_file , header , False , "Test table" )
+#generate_table_row( insights_file , row1 )
+#generate_table_row( insights_file , row2 )
+#generate_table_header( insights_file , None , True , '' )
 
-generate_table_header( insights_file , header , False , "Test table" )
-generate_table_row( insights_file , row1 )
-generate_table_row( insights_file , row2 )
-generate_table_header( insights_file , None , True , '' )
-
-generate_table_header( insights_file , header , False , "Test table" )
-generate_table_row( insights_file , row1 )
-generate_table_row( insights_file , row2 )
-generate_table_header( insights_file , None , True , '' )
 
 
 generate_html_footer( insights_file )
