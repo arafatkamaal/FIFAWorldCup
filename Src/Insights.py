@@ -36,7 +36,7 @@ def generate_table_header( html_file , fields , close_header , title ):
         write_to_file( html_file , '</table>' )
         return 
 
-   #write_to_file( html_file , '<br><br><br>' )
+   write_to_file( html_file , '<br>' )
    write_to_file( insights_file ,'<h2 style="font-family:Nobile; text-align:center">' + title + '<h1>' )
    write_to_file( html_file , '<table style="border:1px;width:300px;font-family:Nobile;font-size:12;text-align:center;margin: 0px auto">' )
    write_to_file( html_file , '<tr>'  )
